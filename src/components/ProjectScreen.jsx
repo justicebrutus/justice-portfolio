@@ -71,8 +71,14 @@ export default function ProjectScreen({ project }) {
           <button onClick={() => setMode("poster")}
             className="font-ui text-[13px] text-mute hover:text-ink px-2 py-2">reset</button>
         )}
-        <a href={project.url} target="_blank" rel="noopener noreferrer"
-          className="ml-auto font-ui text-[13px] font-semibold text-accent hover:text-accentink">Open full app ↗</a>
+        <div className="ml-auto flex items-center gap-4">
+          {project.repo && (
+            <a href={project.repo} target="_blank" rel="noopener noreferrer"
+              className="font-ui text-[13px] font-semibold text-mute hover:text-ink">View source ↗</a>
+          )}
+          <a href={project.url} target="_blank" rel="noopener noreferrer"
+            className="font-ui text-[13px] font-semibold text-accent hover:text-accentink">Open full app ↗</a>
+        </div>
       </div>
     </div>
   );
