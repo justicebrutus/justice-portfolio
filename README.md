@@ -6,7 +6,7 @@
 
 **A coded personal site where you can watch a 30-second tour of each project or launch the real app live, right in the page.**
 
-[**▶ Live**](https://REPLACE-WITH-YOUR-VERCEL-URL) &nbsp;·&nbsp; [Run it locally](#run-it-locally)
+[**▶ Live**](https://justice-portfolio-nine.vercel.app) &nbsp;·&nbsp; [Run it locally](#run-it-locally)
 
 </div>
 
