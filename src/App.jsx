@@ -10,6 +10,10 @@ const PROJECTS = [
     video: "/videos/luxen.mp4",
     blurb: "A browser audio workbench. Every number on screen comes from DSP I wrote by hand — a radix-2 FFT, ITU-R BS.1770-4 LUFS metering, a phase-vocoder retune, and spectral vocal/instrumental separation — with no libraries at all.",
     tech: ["Vanilla JS", "Web Audio API", "Canvas", "Hand-rolled FFT/LUFS"],
+    notes: {
+      problem: "An ambient accent colour cycles through the entire hue range, so contrast accessibility can't be checked by eye — it passes at some hues and fails at others.",
+      fix: "Wrote a script that computes the real WCAG contrast ratio across every point in the cycle and set the colour's lightness floor to the worst case, so text always clears 4.5:1 no matter where the animation is.",
+    },
   },
   {
     title: "Brand Kit Generator",
@@ -20,6 +24,10 @@ const PROJECTS = [
     video: "/videos/brandkit.mp4",
     blurb: "Type one sentence and get a full brand system — a colour palette with computed WCAG contrast, a font pairing, a wordmark, a voice, a live website mockup, and a tailored PDF. The design engines are real client-side code; the copy is AI, orchestrated over a two-step chain.",
     tech: ["React", "Vite", "Tailwind", "Anthropic API", "jsPDF"],
+    notes: {
+      problem: "A single AI prompt trying to do brand strategy and copywriting at once produced vague, generic output — it wrote copy before deciding what the brand actually was.",
+      fix: "Split it into a two-step chain: the AI defines the brand strategy first, then a second call writes copy conditioned on that strategy. I also code-split the PDF library so it only loads on download, and added a no-key local fallback so the app always works.",
+    },
   },
   {
     title: "HALO",
@@ -30,6 +38,10 @@ const PROJECTS = [
     video: "/videos/halo.mp4",
     blurb: "A dark, cinematic studio site built around an interactive generative halo — a hand-written canvas particle system with sprite-based glow and cursor physics that visitors can retune live. Framer Motion scroll choreography, a starfield, and real performance tuning.",
     tech: ["React", "Framer Motion", "Canvas", "Vercel"],
+    notes: {
+      problem: "The particle halo froze the browser tab. The glow used ctx.shadowBlur — one of the most expensive canvas operations — recomputed per particle, every frame, at full retina resolution: tens of thousands of blur operations a second.",
+      fix: "Pre-rendered the glow once to an offscreen sprite and stamped copies with drawImage() instead of recomputing the blur. Also capped the canvas resolution, reduced the particle count, and paused the render loop when the tab is hidden. Cache expensive work, never redo it in a hot loop.",
+    },
   },
 ];
 
@@ -94,6 +106,22 @@ export default function App() {
                       <span key={t} className="font-ui text-[12px] text-mute border border-line rounded-full px-2.5 py-1">{t}</span>
                     ))}
                   </div>
+                  {p.notes && (
+                    <details className="mt-4 group">
+                      <summary className="cursor-pointer list-none font-ui text-[12.5px] font-semibold text-accent hover:text-accentink select-none">
+                        <span className="inline-block transition-transform group-open:rotate-90 mr-1.5">▸</span>
+                        The engineering behind it
+                      </summary>
+                      <div className="mt-3 pl-3 border-l-2 border-line space-y-2.5">
+                        <p className="font-ui text-[13px] leading-relaxed text-body">
+                          <span className="font-semibold text-ink">The problem — </span>{p.notes.problem}
+                        </p>
+                        <p className="font-ui text-[13px] leading-relaxed text-body">
+                          <span className="font-semibold text-ink">The fix — </span>{p.notes.fix}
+                        </p>
+                      </div>
+                    </details>
+                  )}
                 </div>
               </div>
             ))}
