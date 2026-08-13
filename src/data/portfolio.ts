@@ -50,7 +50,7 @@ export const CARRYOVER: CaseStudy = {
   descriptor: "Shift continuity for the work that cannot be dropped",
   summary: "A fictional plant-operations product that turns unresolved conditions into acknowledged, assigned, evidence-backed work across shifts.",
   path: "/work/carryover",
-  liveUrl: "https://github.com/justicebrutus/carryover",
+  liveUrl: "",
   repoUrl: "https://github.com/justicebrutus/carryover",
   poster: "/projects/carryover-overview.png",
   technologies: ["React", "TypeScript", "Domain modeling", "Local persistence", "Vitest"],
