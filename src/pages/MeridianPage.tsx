@@ -1,4 +1,5 @@
 import { MERIDIAN } from "../data/portfolio";
+import LiveProjectPreview from "../components/LiveProjectPreview";
 
 const systemNodes = [
   ["Public narrative", "Thesis pages explain what Meridian believes and why."],
@@ -22,11 +23,11 @@ export default function MeridianPage() {
       <div className="screen-evidence-stack">
         <figure className="evidence-plate evidence-plate-public">
           <div className="evidence-label"><span>01</span><strong>Public narrative</strong><p>A thesis-led public surface establishes the institution before the product asks for trust.</p></div>
-          <div className="browser-frame"><div className="browser-frame-bar" aria-hidden="true"><i /><i /><i /><b>meridian-justice12.vercel.app</b></div><div className="screen-crop screen-crop-public"><img src="/projects/meridian-public.png" alt="Meridian public website hero on desktop" width="1440" height="900" /></div></div>
+          <LiveProjectPreview href={MERIDIAN.liveUrl} label="Meridian public website" pathLabel="meridian-justice12.vercel.app" previewHeight={820} />
         </figure>
         <figure className="evidence-plate evidence-plate-console">
           <div className="evidence-label"><span>02</span><strong>Operating console</strong><p>The command centre leads with operating pressure, capital context, and the next review—not decorative metrics.</p></div>
-          <div className="browser-frame"><div className="browser-frame-bar" aria-hidden="true"><i /><i /><i /><b>meridian-justice12.vercel.app / console</b></div><div className="screen-crop screen-crop-console"><img src="/projects/meridian-overview.png" alt="Meridian portfolio command centre on desktop" width="1440" height="900" /></div></div>
+          <LiveProjectPreview href={`${MERIDIAN.liveUrl}/console`} label="Meridian portfolio console" pathLabel="meridian-justice12.vercel.app / console" previewHeight={820} />
         </figure>
         <figure className="evidence-plate evidence-plate-mobile">
           <div className="evidence-label"><span>03</span><strong>Mobile record</strong><p>Wide ledgers become direct company records, with the same decisions preserved in a touch-first reading order.</p></div>

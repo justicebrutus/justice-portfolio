@@ -102,16 +102,15 @@ figure { margin: 0; }
 .evidence-label > span { display: block; margin: .8rem 0 3rem; color: var(--blue); font: .64rem "IBM Plex Mono", monospace; }
 .evidence-label > strong { display: block; margin-bottom: .7rem; font-size: 1.05rem; }
 .evidence-label p { margin: 0; font-size: .78rem; line-height: 1.55; }
-.browser-frame { min-width: 0; overflow: hidden; border: 1px solid var(--line-dark); background: #e9edf0; box-shadow: 0 18px 45px rgba(23,34,45,.1); }
 .browser-frame-bar, .flagship-window-bar { min-height: 38px; display: flex; align-items: center; gap: .4rem; padding-inline: .8rem; border-bottom: 1px solid var(--line); background: #f4f6f7; }
 .browser-frame-bar i, .flagship-window-bar i { width: 7px; height: 7px; border-radius: 50%; background: #9da8b2; }
 .browser-frame-bar b, .flagship-window-bar span { margin-left: .35rem; color: var(--muted); font: 500 .58rem "IBM Plex Mono", monospace; }
-.screen-crop { position: relative; overflow: hidden; background: white; }
-.screen-crop img { width: 100%; max-width: none; height: auto; object-fit: cover; object-position: top left; }
-.screen-crop-public { aspect-ratio: 16 / 8.1; }
-.screen-crop-public img { transform: scale(1.01); transform-origin: top left; }
-.screen-crop-console { aspect-ratio: 16 / 8.5; }
-.screen-crop-console img { transform: scale(1.015); transform-origin: top left; }
+.live-project-preview { min-width: 0; display: block; overflow: hidden; border: 1px solid var(--line-dark); background: #e9edf0; box-shadow: 0 18px 45px rgba(23,34,45,.1); text-decoration: none; }
+.live-project-viewport { position: relative; display: block; overflow: hidden; background: white; }
+.live-project-viewport iframe { position: absolute; top: 0; left: 0; max-width: none; border: 0; pointer-events: none; transform: scale(var(--preview-scale)); transform-origin: top left; }
+.live-project-action { position: absolute; right: 1rem; bottom: 1rem; z-index: 2; display: inline-flex; align-items: center; min-height: 42px; padding: .7rem .85rem; background: rgba(20,27,38,.94); color: white; font-size: .7rem; font-weight: 700; opacity: 0; transform: translateY(5px); transition: opacity 180ms ease, transform 180ms ease; }
+.live-project-preview:hover .live-project-action, .live-project-preview:focus-visible .live-project-action { opacity: 1; transform: none; }
+.live-project-preview:focus-visible { outline-offset: 5px; }
 .evidence-plate-mobile { grid-template-columns: minmax(190px, .34fr) minmax(280px, .66fr); }
 .device-stage { min-height: 700px; display: grid; grid-template-columns: minmax(250px, 390px) 1fr; gap: clamp(1.5rem, 4vw, 3rem); align-items: center; padding: clamp(1.5rem, 4vw, 3rem); background: var(--ink); }
 .device-frame { position: relative; overflow: hidden; border: 7px solid #0b1119; border-radius: 24px; background: white; box-shadow: 0 24px 70px rgba(0,0,0,.35); }
@@ -241,8 +240,7 @@ figure { margin: 0; }
 .record-section-heading h2 { margin: 0; font-size: clamp(1.55rem, 2.6vw, 2.45rem); letter-spacing: -.04em; }
 .flagship-grid { display: grid; grid-template-columns: minmax(0, 1.1fr) minmax(370px, .9fr); gap: 2rem; align-items: start; }
 .flagship-image { border: 1px solid var(--line-dark); background: #eef1f3; }
-.flagship-screen-crop { aspect-ratio: 16 / 8.65; overflow: hidden; background: white; }
-.flagship-screen-crop img { width: 100%; max-width: none; height: auto; object-fit: cover; object-position: top left; transform: scale(1.01); transform-origin: top left; }
+.flagship-image > .live-project-preview { border: 0; box-shadow: none; }
 .flagship-image figcaption { display: grid; gap: .2rem; padding: .65rem .75rem; border-top: 1px solid var(--line); color: var(--muted); font-size: .65rem; }
 .flagship-image figcaption strong { color: var(--ink); font-size: .68rem; }
 .project-type { margin-bottom: .6rem; color: var(--blue); font: 700 .62rem "IBM Plex Mono", monospace; text-transform: uppercase; letter-spacing: .08em; }
@@ -377,6 +375,7 @@ figure { margin: 0; }
   .mobile-principle { width: min(100%, 300px); grid-template-columns: auto 1fr; align-items: baseline; padding: 0; }
   .mobile-principle i { margin: 0; text-align: right; }
   .browser-frame-bar b, .flagship-window-bar span { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .live-project-action { opacity: 1; transform: none; right: .65rem; bottom: .65rem; min-height: 38px; padding: .55rem .7rem; }
 }
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }

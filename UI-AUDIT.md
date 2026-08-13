@@ -18,6 +18,7 @@
 - Removed Carryover from public navigation, routing, metadata, sitemap, and résumé until its release is approved.
 - Reframed Meridian evidence as inspectable product plates: browser chrome, purpose-led captions, focused desktop crops, and a native-proportion mobile device view replace the undersized screenshot grid.
 - Reworked the homepage Meridian preview around the command centre's decision surface so the product remains legible beside the project summary.
+- Replaced the desktop screenshot evidence with non-interactive live Meridian embeds. Each entire preview is a native link to the corresponding public or console route, preventing nested scrolling while giving recruiters a current product view.
 - Removed phone, portrait, LinkedIn, self-taught, unsupported seniority, and junior-signaling quantity claims.
 - Added dedicated routed case studies, route metadata, 404 recovery, sitemap, robots, and current-domain canonical metadata.
 - Replaced decorative media framing with fixed-dimension, captioned product evidence.

@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import { LAB_PROJECTS, MERIDIAN, PROFILE } from "../data/portfolio";
+import LiveProjectPreview from "../components/LiveProjectPreview";
 
 const capabilityGroups = [
   ["Build", "React, TypeScript, JavaScript, React Router, semantic HTML, modern CSS"],
@@ -42,8 +43,7 @@ export default function HomePage() {
       <header className="record-section-heading"><span>01</span><div><p className="eyebrow">Selected product work</p><h2 id="meridian-title">Meridian Capital</h2></div></header>
       <div className="flagship-grid">
         <figure className="flagship-image">
-          <div className="flagship-window-bar" aria-hidden="true"><i /><i /><i /><span>Meridian / Portfolio command centre</span></div>
-          <div className="flagship-screen-crop"><img src="/projects/meridian-overview.png" alt="Meridian portfolio command centre showing operating pressure and capital context" width="1440" height="900" /></div>
+          <LiveProjectPreview href={`${MERIDIAN.liveUrl}/console`} label="Meridian portfolio console" pathLabel="Meridian / Portfolio command centre" previewHeight={820} />
           <figcaption><strong>Portfolio operating system</strong><span>Decision context shown at an inspectable scale.</span></figcaption>
         </figure>
         <div className="flagship-copy">
