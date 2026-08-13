@@ -1,20 +1,88 @@
 import { Link } from "react-router-dom";
-import VideoPreview from "../components/VideoPreview";
-import { CARRYOVER, LAB_PROJECTS, MERIDIAN, PROFILE } from "../data/portfolio";
+import { LAB_PROJECTS, MERIDIAN, PROFILE } from "../data/portfolio";
 
-const capabilities = [
-  ["Product interface architecture", "Turn complex workflows into legible routes, states, and decisions.", "Meridian and Carryover each connect multiple surfaces to one typed operating model."],
-  ["Responsive systems", "Recompose information for the user’s device instead of shrinking desktop UI.", "Wide ledgers become direct mobile records with the decision path intact."],
-  ["Accessible interaction", "Build keyboard paths, focus states, reduced-motion alternatives, and semantic controls into the product.", "Filters, forms, dialogs, role controls, and navigation remain usable without a pointer."],
-  ["Release ownership", "Carry work through content QA, test coverage, browser review, performance, and deployment.", "Passing claims are published only after their supporting suites and builds execute."],
+const capabilityGroups = [
+  ["Build", "React, TypeScript, JavaScript, React Router, semantic HTML, modern CSS"],
+  ["Interaction", "Responsive systems, keyboard workflows, focus management, forms, reduced motion"],
+  ["Quality", "Vitest, Testing Library, browser QA, content integrity, Vite, Git, Vercel"],
 ] as const;
 
-export default function HomePage() { return <>
-  <section className="home-hero section-shell"><div className="hero-index" aria-hidden="true">JB / 26</div><div className="hero-copy"><p className="eyebrow">Product-focused Front-End Engineer · Ontario, Canada</p><h1>{PROFILE.statement}</h1><p className="lede">{PROFILE.summary}</p><div className="button-row"><Link className="button button-primary" to={MERIDIAN.path!}>See the Meridian case study</Link><Link className="text-link" to="/resume">Read the résumé <span aria-hidden="true">→</span></Link></div></div><aside className="hero-brief" aria-label="Current focus"><p>Current focus</p><strong>Product UI engineering</strong><span>React · TypeScript · complex workflows</span></aside></section>
-  <section className="section-shell flagship-section" aria-labelledby="flagship-title"><header className="section-heading split-heading"><div><p className="eyebrow">01 · Flagship work</p><h2 id="flagship-title">One institution.<br/>Two product surfaces.</h2></div><p>Meridian tests whether a public narrative, a dense operating console, and a 24-company dataset can feel like one credible product system.</p></header><VideoPreview title={MERIDIAN.title} poster={MERIDIAN.poster} source={MERIDIAN.video}/><div className="flagship-ledger"><div><span>Project</span><strong>{MERIDIAN.title}</strong></div><div><span>System</span><strong>27 routed views</strong></div><div><span>Product</span><strong>5 connected workspaces</strong></div><div><span>Verification</span><strong>46 passing tests</strong></div></div><div className="flagship-summary"><p>{MERIDIAN.summary}</p><div className="button-row"><Link className="button button-primary" to={MERIDIAN.path!}>Read the case study</Link><a className="button button-secondary" href={MERIDIAN.liveUrl} target="_blank" rel="noreferrer">Open Meridian ↗</a></div></div></section>
-  <section className="section-shell second-flagship" aria-labelledby="carryover-title"><div className="second-copy"><p className="eyebrow">02 · Repeatable product judgment</p><h2 id="carryover-title">Shift continuity for the work that cannot be dropped.</h2><p>{CARRYOVER.summary}</p><div className="mini-evidence"><span>5 workspaces</span><span>3 role previews</span><span>13 passing tests</span></div><Link className="button button-primary" to={CARRYOVER.path!}>Read the Carryover case study</Link></div><VideoPreview title={CARRYOVER.title} poster={CARRYOVER.poster} compact/></section>
-  <section className="section-shell capability-section" aria-labelledby="capability-title"><header className="section-heading"><p className="eyebrow">03 · How I work</p><h2 id="capability-title">Engineering judgment, made visible.</h2></header><div className="capability-list">{capabilities.map(([title,promise,evidence],index)=><article className="capability-row" key={title}><span className="row-number">0{index+1}</span><h3>{title}</h3><p>{promise}</p><small>{evidence}</small></article>)}</div></section>
-  <section className="section-shell lab-section" aria-labelledby="lab-title"><header className="section-heading split-heading"><div><p className="eyebrow">04 · Technical lab</p><h2 id="lab-title">Range without noise.</h2></div><p>Focused experiments in browser audio, rendering, motion, and performance. Useful evidence—not a second portfolio competing for attention.</p></header><div className="lab-grid">{LAB_PROJECTS.map(project=><article className="lab-card" key={project.id}><VideoPreview title={project.title} poster={project.poster} source={project.video} compact/><p className="eyebrow">{project.descriptor}</p><h3>{project.title}</h3><p>{project.summary}</p><div className="tech-list" aria-label={`${project.title} technologies`}>{project.technologies.map(technology=><span key={technology}>{technology}</span>)}</div><div className="card-links"><a href={project.liveUrl} target="_blank" rel="noreferrer">Open project ↗</a>{project.repoUrl&&<a href={project.repoUrl} target="_blank" rel="noreferrer">Source ↗</a>}</div></article>)}</div></section>
-  <section className="section-shell operating-section" aria-labelledby="operating-title"><div><p className="eyebrow">05 · Operating context</p><h2 id="operating-title">Software judgment grounded in physical work.</h2></div><div className="experience-record"><div><strong>Filament Winding Operator</strong><span>RS Poles · Tilbury, Ontario</span><span>June 2025–Present</span></div><p>Work inside a production environment where equipment condition, process discipline, handoffs, and clear accountability are operational—not abstract. Earned independent troubleshooting responsibility within 2.5 months.</p></div></section>
-  <section className="section-shell contact-band" aria-labelledby="contact-title"><p className="eyebrow">06 · Next step</p><h2 id="contact-title">If the product is complex, the interface should make it feel considered.</h2><div className="button-row"><a className="button button-primary" href={`mailto:${PROFILE.email}`}>Email Justice</a><Link className="button button-secondary" to="/resume">View résumé</Link><a className="text-link" href={PROFILE.github} target="_blank" rel="noreferrer">GitHub ↗</a></div></section>
-</>; }
+const meridianBullets = [
+  "Built a 27-route experience spanning an editorial institutional website and a five-workspace portfolio console.",
+  "Designed one typed 24-company record to drive public claims, capital exceptions, reviews, filtering, and reporting.",
+  "Implemented accessible interaction, responsive work modes, versioned local persistence, recovery, and automated tests.",
+] as const;
+
+export default function HomePage() {
+  return <article className="portfolio-dossier section-shell">
+    <header className="dossier-header" aria-labelledby="portfolio-title">
+      <div className="dossier-identity">
+        <p className="eyebrow">{PROFILE.name} · {PROFILE.location}</p>
+        <h1 id="portfolio-title">{PROFILE.role}</h1>
+        <p className="dossier-statement">{PROFILE.statement}</p>
+      </div>
+      <address className="dossier-contact">
+        <a href={`mailto:${PROFILE.email}`}>{PROFILE.email}</a>
+        <a href={PROFILE.github} target="_blank" rel="noreferrer">github.com/justicebrutus ↗</a>
+        <Link to="/resume">Résumé / PDF →</Link>
+      </address>
+    </header>
+
+    <section className="dossier-summary" aria-label="Professional summary">
+      <h2>Profile</h2>
+      <p>{PROFILE.summary} I take work from product framing through implementation, responsive QA, and release verification.</p>
+      <dl>
+        <div><dt>Primary focus</dt><dd>Product interface engineering</dd></div>
+        <div><dt>Strongest work</dt><dd>Complex, data-rich workflows</dd></div>
+        <div><dt>Current stack</dt><dd>React + TypeScript</dd></div>
+      </dl>
+    </section>
+
+    <section id="selected-work" className="dossier-section flagship-record" aria-labelledby="meridian-title">
+      <header className="record-section-heading"><span>01</span><div><p className="eyebrow">Selected product work</p><h2 id="meridian-title">Meridian Capital</h2></div></header>
+      <div className="flagship-grid">
+        <figure className="flagship-image">
+          <img src="/projects/meridian-overview.png" alt="Complete desktop view of Meridian's portfolio operating console" width="1440" height="900" />
+          <figcaption>Portfolio operating system · complete desktop view</figcaption>
+        </figure>
+        <div className="flagship-copy">
+          <p className="project-type">Independent product case study · 2026</p>
+          <p className="project-intro">{MERIDIAN.summary}</p>
+          <dl className="project-ledger">
+            <div><dt>Role</dt><dd>Product definition, information architecture, visual direction, implementation review, release QA</dd></div>
+            <div><dt>Stack</dt><dd>{MERIDIAN.technologies.slice(0, 4).join(" · ")}</dd></div>
+          </dl>
+          <ul className="project-outcomes">{meridianBullets.map((bullet) => <li key={bullet}>{bullet}</li>)}</ul>
+          <div className="scope-line" aria-label="Verified Meridian scope">{MERIDIAN.evidence.map((item) => <div key={item.label}><strong>{item.value}</strong><span>{item.label}</span></div>)}</div>
+          <div className="record-actions">
+            <Link className="button button-primary" to={MERIDIAN.path!}>Read case study</Link>
+            <a href={MERIDIAN.liveUrl} target="_blank" rel="noreferrer">Live project ↗</a>
+            <a href={MERIDIAN.repoUrl} target="_blank" rel="noreferrer">Source ↗</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div className="dossier-columns">
+      <section className="dossier-section" aria-labelledby="capabilities-title">
+        <header className="record-section-heading"><span>02</span><div><p className="eyebrow">Capabilities</p><h2 id="capabilities-title">Frontend product delivery</h2></div></header>
+        <div className="capability-records">{capabilityGroups.map(([title, detail]) => <div key={title}><h3>{title}</h3><p>{detail}</p></div>)}</div>
+      </section>
+
+      <section className="dossier-section" aria-labelledby="experience-title">
+        <header className="record-section-heading"><span>03</span><div><p className="eyebrow">Professional experience</p><h2 id="experience-title">Operating discipline</h2></div></header>
+        <article className="job-record"><div><h3>Filament Winding Operator</h3><p>RS Poles · Tilbury, Ontario</p></div><time>June 2025–Present</time><ul><li>Work where process discipline, equipment condition, and clear handoffs directly affect production output.</li><li>Earned independent equipment-troubleshooting responsibility within 2.5 months.</li></ul></article>
+      </section>
+    </div>
+
+    <section className="dossier-section lab-record" aria-labelledby="lab-title">
+      <header className="record-section-heading"><span>04</span><div><p className="eyebrow">Technical lab</p><h2 id="lab-title">Focused engineering range</h2></div></header>
+      <div className="lab-records">{LAB_PROJECTS.map((project) => <article key={project.id}><div><h3>{project.title}</h3><p>{project.summary}</p></div><span>{project.technologies.join(" · ")}</span><div><a href={project.liveUrl} target="_blank" rel="noreferrer">Live ↗</a>{project.repoUrl && <a href={project.repoUrl} target="_blank" rel="noreferrer">Source ↗</a>}</div></article>)}</div>
+    </section>
+
+    <footer className="dossier-footer">
+      <div><p className="eyebrow">Next step</p><h2>Résumé, source, or a direct conversation.</h2></div>
+      <div className="record-actions"><Link className="button button-primary" to="/resume">Open résumé</Link><a href={`mailto:${PROFILE.email}`}>Email Justice</a><a href={PROFILE.github} target="_blank" rel="noreferrer">GitHub ↗</a></div>
+    </footer>
+  </article>;
+}

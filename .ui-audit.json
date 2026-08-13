@@ -8,12 +8,11 @@
                   "routes":  [
                                  "/",
                                  "/work/meridian",
-                                 "/work/carryover",
                                  "/resume",
                                  "/missing"
                              ],
                   "journeys":  [
-                                   "Recruiter reads positioning, inspects Meridian and Carryover evidence, opens the rÃ©sumÃ©, and reaches contact or source without a dead end.",
+                                   "Recruiter reads positioning, inspects Meridian evidence, opens the rÃ©sumÃ©, and reaches contact or source without a dead end.",
                                    "Direct route refresh and deliberate 404 recovery.",
                                    "Download and inspect the one-page ATS rÃ©sumÃ© PDF."
                                ]
@@ -28,12 +27,11 @@
                              "routes":  [
                                             "/",
                                             "/work/meridian",
-                                            "/work/carryover",
                                             "/resume",
                                             "/missing"
                                         ],
                              "journeys":  [
-                                              "Navigate both flagship case studies, rÃ©sumÃ©, and 404 recovery."
+                                              "Navigate the Meridian case study, rÃ©sumÃ©, and 404 recovery."
                                           ],
                              "evidence":  [
                                               "Browser matrix reported document scroll width equal to client width; mobile and desktop screenshots were visually inspected."
@@ -48,12 +46,11 @@
                              "routes":  [
                                             "/",
                                             "/work/meridian",
-                                            "/work/carryover",
                                             "/resume",
                                             "/missing"
                                         ],
                              "journeys":  [
-                                              "Navigate both flagship case studies, rÃ©sumÃ©, and 404 recovery."
+                                              "Navigate the Meridian case study, rÃ©sumÃ©, and 404 recovery."
                                           ],
                              "evidence":  [
                                               "Browser matrix reported document scroll width equal to client width; mobile and desktop screenshots were visually inspected."
@@ -68,12 +65,11 @@
                              "routes":  [
                                             "/",
                                             "/work/meridian",
-                                            "/work/carryover",
                                             "/resume",
                                             "/missing"
                                         ],
                              "journeys":  [
-                                              "Navigate both flagship case studies, rÃ©sumÃ©, and 404 recovery."
+                                              "Navigate the Meridian case study, rÃ©sumÃ©, and 404 recovery."
                                           ],
                              "evidence":  [
                                               "Browser matrix reported document scroll width equal to client width; mobile and desktop screenshots were visually inspected."
@@ -88,12 +84,11 @@
                              "routes":  [
                                             "/",
                                             "/work/meridian",
-                                            "/work/carryover",
                                             "/resume",
                                             "/missing"
                                         ],
                              "journeys":  [
-                                              "Navigate both flagship case studies, rÃ©sumÃ©, and 404 recovery."
+                                              "Navigate the Meridian case study, rÃ©sumÃ©, and 404 recovery."
                                           ],
                              "evidence":  [
                                               "Browser matrix reported document scroll width equal to client width; mobile and desktop screenshots were visually inspected."
@@ -108,12 +103,11 @@
                              "routes":  [
                                             "/",
                                             "/work/meridian",
-                                            "/work/carryover",
                                             "/resume",
                                             "/missing"
                                         ],
                              "journeys":  [
-                                              "Navigate both flagship case studies, rÃ©sumÃ©, and 404 recovery."
+                                              "Navigate the Meridian case study, rÃ©sumÃ©, and 404 recovery."
                                           ],
                              "evidence":  [
                                               "Browser matrix reported document scroll width equal to client width; mobile and desktop screenshots were visually inspected."
@@ -130,7 +124,7 @@
                                      "Portfolio home and routed case-study interfaces"
                                  ],
                        "evidence":  [
-                                        "Verified through passing TypeScript/Vite build, 7 automated tests, rendered Chromium route walkthrough, responsive overflow matrix, source review, and PDF inspection as applicable."
+                                        "Verified through passing TypeScript/Vite build, 4 automated tests, rendered Chromium route walkthrough, responsive overflow matrix, source review, and PDF inspection as applicable."
                                     ]
                    },
                    {
@@ -142,7 +136,7 @@
                                      "Portfolio home and routed case-study interfaces"
                                  ],
                        "evidence":  [
-                                        "Verified through passing TypeScript/Vite build, 7 automated tests, rendered Chromium route walkthrough, responsive overflow matrix, source review, and PDF inspection as applicable."
+                                        "Verified through passing TypeScript/Vite build, 4 automated tests, rendered Chromium route walkthrough, responsive overflow matrix, source review, and PDF inspection as applicable."
                                     ]
                    },
                    {
@@ -154,7 +148,7 @@
                                      "Portfolio home and routed case-study interfaces"
                                  ],
                        "evidence":  [
-                                        "Verified through passing TypeScript/Vite build, 7 automated tests, rendered Chromium route walkthrough, responsive overflow matrix, source review, and PDF inspection as applicable."
+                                        "Verified through passing TypeScript/Vite build, 4 automated tests, rendered Chromium route walkthrough, responsive overflow matrix, source review, and PDF inspection as applicable."
                                     ]
                    },
                    {
@@ -166,7 +160,7 @@
                                      "Portfolio home and routed case-study interfaces"
                                  ],
                        "evidence":  [
-                                        "Verified through passing TypeScript/Vite build, 7 automated tests, rendered Chromium route walkthrough, responsive overflow matrix, source review, and PDF inspection as applicable."
+                                        "Verified through passing TypeScript/Vite build, 4 automated tests, rendered Chromium route walkthrough, responsive overflow matrix, source review, and PDF inspection as applicable."
                                     ]
                    },
                    {
@@ -178,7 +172,7 @@
                                      "Portfolio home and routed case-study interfaces"
                                  ],
                        "evidence":  [
-                                        "Verified through passing TypeScript/Vite build, 7 automated tests, rendered Chromium route walkthrough, responsive overflow matrix, source review, and PDF inspection as applicable."
+                                        "Verified through passing TypeScript/Vite build, 4 automated tests, rendered Chromium route walkthrough, responsive overflow matrix, source review, and PDF inspection as applicable."
                                     ]
                    },
                    {
@@ -190,7 +184,7 @@
                                      "Portfolio home and routed case-study interfaces"
                                  ],
                        "evidence":  [
-                                        "Verified through passing TypeScript/Vite build, 7 automated tests, rendered Chromium route walkthrough, responsive overflow matrix, source review, and PDF inspection as applicable."
+                                        "Verified through passing TypeScript/Vite build, 4 automated tests, rendered Chromium route walkthrough, responsive overflow matrix, source review, and PDF inspection as applicable."
                                     ]
                    },
                    {
@@ -202,7 +196,7 @@
                                      "Portfolio home and routed case-study interfaces"
                                  ],
                        "evidence":  [
-                                        "Verified through passing TypeScript/Vite build, 7 automated tests, rendered Chromium route walkthrough, responsive overflow matrix, source review, and PDF inspection as applicable."
+                                        "Verified through passing TypeScript/Vite build, 4 automated tests, rendered Chromium route walkthrough, responsive overflow matrix, source review, and PDF inspection as applicable."
                                     ]
                    },
                    {
@@ -214,7 +208,7 @@
                                      "Portfolio home and routed case-study interfaces"
                                  ],
                        "evidence":  [
-                                        "Verified through passing TypeScript/Vite build, 7 automated tests, rendered Chromium route walkthrough, responsive overflow matrix, source review, and PDF inspection as applicable."
+                                        "Verified through passing TypeScript/Vite build, 4 automated tests, rendered Chromium route walkthrough, responsive overflow matrix, source review, and PDF inspection as applicable."
                                     ]
                    },
                    {
@@ -226,7 +220,7 @@
                                      "Portfolio home and routed case-study interfaces"
                                  ],
                        "evidence":  [
-                                        "Verified through passing TypeScript/Vite build, 7 automated tests, rendered Chromium route walkthrough, responsive overflow matrix, source review, and PDF inspection as applicable."
+                                        "Verified through passing TypeScript/Vite build, 4 automated tests, rendered Chromium route walkthrough, responsive overflow matrix, source review, and PDF inspection as applicable."
                                     ]
                    },
                    {
@@ -238,7 +232,7 @@
                                      "Portfolio home and routed case-study interfaces"
                                  ],
                        "evidence":  [
-                                        "Verified through passing TypeScript/Vite build, 7 automated tests, rendered Chromium route walkthrough, responsive overflow matrix, source review, and PDF inspection as applicable."
+                                        "Verified through passing TypeScript/Vite build, 4 automated tests, rendered Chromium route walkthrough, responsive overflow matrix, source review, and PDF inspection as applicable."
                                     ]
                    },
                    {
@@ -250,7 +244,7 @@
                                      "Portfolio home and routed case-study interfaces"
                                  ],
                        "evidence":  [
-                                        "Verified through passing TypeScript/Vite build, 7 automated tests, rendered Chromium route walkthrough, responsive overflow matrix, source review, and PDF inspection as applicable."
+                                        "Verified through passing TypeScript/Vite build, 4 automated tests, rendered Chromium route walkthrough, responsive overflow matrix, source review, and PDF inspection as applicable."
                                     ]
                    },
                    {
@@ -262,7 +256,7 @@
                                      "Portfolio home and routed case-study interfaces"
                                  ],
                        "evidence":  [
-                                        "Verified through passing TypeScript/Vite build, 7 automated tests, rendered Chromium route walkthrough, responsive overflow matrix, source review, and PDF inspection as applicable."
+                                        "Verified through passing TypeScript/Vite build, 4 automated tests, rendered Chromium route walkthrough, responsive overflow matrix, source review, and PDF inspection as applicable."
                                     ]
                    },
                    {
@@ -274,7 +268,7 @@
                                      "Portfolio home and routed case-study interfaces"
                                  ],
                        "evidence":  [
-                                        "Verified through passing TypeScript/Vite build, 7 automated tests, rendered Chromium route walkthrough, responsive overflow matrix, source review, and PDF inspection as applicable."
+                                        "Verified through passing TypeScript/Vite build, 4 automated tests, rendered Chromium route walkthrough, responsive overflow matrix, source review, and PDF inspection as applicable."
                                     ]
                    },
                    {
@@ -286,7 +280,7 @@
                                      "Portfolio home and routed case-study interfaces"
                                  ],
                        "evidence":  [
-                                        "Verified through passing TypeScript/Vite build, 7 automated tests, rendered Chromium route walkthrough, responsive overflow matrix, source review, and PDF inspection as applicable."
+                                        "Verified through passing TypeScript/Vite build, 4 automated tests, rendered Chromium route walkthrough, responsive overflow matrix, source review, and PDF inspection as applicable."
                                     ]
                    },
                    {
@@ -298,7 +292,7 @@
                                      "Portfolio home and routed case-study interfaces"
                                  ],
                        "evidence":  [
-                                        "Verified through passing TypeScript/Vite build, 7 automated tests, rendered Chromium route walkthrough, responsive overflow matrix, source review, and PDF inspection as applicable."
+                                        "Verified through passing TypeScript/Vite build, 4 automated tests, rendered Chromium route walkthrough, responsive overflow matrix, source review, and PDF inspection as applicable."
                                     ]
                    },
                    {
@@ -310,7 +304,7 @@
                                      "Portfolio home and routed case-study interfaces"
                                  ],
                        "evidence":  [
-                                        "Verified through passing TypeScript/Vite build, 7 automated tests, rendered Chromium route walkthrough, responsive overflow matrix, source review, and PDF inspection as applicable."
+                                        "Verified through passing TypeScript/Vite build, 4 automated tests, rendered Chromium route walkthrough, responsive overflow matrix, source review, and PDF inspection as applicable."
                                     ]
                    },
                    {
@@ -322,7 +316,7 @@
                                      "Portfolio home and routed case-study interfaces"
                                  ],
                        "evidence":  [
-                                        "Verified through passing TypeScript/Vite build, 7 automated tests, rendered Chromium route walkthrough, responsive overflow matrix, source review, and PDF inspection as applicable."
+                                        "Verified through passing TypeScript/Vite build, 4 automated tests, rendered Chromium route walkthrough, responsive overflow matrix, source review, and PDF inspection as applicable."
                                     ]
                    },
                    {
@@ -334,7 +328,7 @@
                                      "Portfolio home and routed case-study interfaces"
                                  ],
                        "evidence":  [
-                                        "Verified through passing TypeScript/Vite build, 7 automated tests, rendered Chromium route walkthrough, responsive overflow matrix, source review, and PDF inspection as applicable."
+                                        "Verified through passing TypeScript/Vite build, 4 automated tests, rendered Chromium route walkthrough, responsive overflow matrix, source review, and PDF inspection as applicable."
                                     ]
                    },
                    {
@@ -411,7 +405,7 @@
                                      "Portfolio home and routed case-study interfaces"
                                  ],
                        "evidence":  [
-                                        "Verified through passing TypeScript/Vite build, 7 automated tests, rendered Chromium route walkthrough, responsive overflow matrix, source review, and PDF inspection as applicable."
+                                        "Verified through passing TypeScript/Vite build, 4 automated tests, rendered Chromium route walkthrough, responsive overflow matrix, source review, and PDF inspection as applicable."
                                     ]
                    },
                    {
@@ -423,7 +417,7 @@
                                      "Portfolio home and routed case-study interfaces"
                                  ],
                        "evidence":  [
-                                        "Verified through passing TypeScript/Vite build, 7 automated tests, rendered Chromium route walkthrough, responsive overflow matrix, source review, and PDF inspection as applicable."
+                                        "Verified through passing TypeScript/Vite build, 4 automated tests, rendered Chromium route walkthrough, responsive overflow matrix, source review, and PDF inspection as applicable."
                                     ]
                    },
                    {
@@ -435,7 +429,7 @@
                                      "Portfolio home and routed case-study interfaces"
                                  ],
                        "evidence":  [
-                                        "Verified through passing TypeScript/Vite build, 7 automated tests, rendered Chromium route walkthrough, responsive overflow matrix, source review, and PDF inspection as applicable."
+                                        "Verified through passing TypeScript/Vite build, 4 automated tests, rendered Chromium route walkthrough, responsive overflow matrix, source review, and PDF inspection as applicable."
                                     ]
                    },
                    {
@@ -447,7 +441,7 @@
                                      "Portfolio home and routed case-study interfaces"
                                  ],
                        "evidence":  [
-                                        "Verified through passing TypeScript/Vite build, 7 automated tests, rendered Chromium route walkthrough, responsive overflow matrix, source review, and PDF inspection as applicable."
+                                        "Verified through passing TypeScript/Vite build, 4 automated tests, rendered Chromium route walkthrough, responsive overflow matrix, source review, and PDF inspection as applicable."
                                     ]
                    },
                    {
@@ -459,7 +453,7 @@
                                      "Portfolio home and routed case-study interfaces"
                                  ],
                        "evidence":  [
-                                        "Verified through passing TypeScript/Vite build, 7 automated tests, rendered Chromium route walkthrough, responsive overflow matrix, source review, and PDF inspection as applicable."
+                                        "Verified through passing TypeScript/Vite build, 4 automated tests, rendered Chromium route walkthrough, responsive overflow matrix, source review, and PDF inspection as applicable."
                                     ]
                    },
                    {
@@ -471,7 +465,7 @@
                                      "Portfolio home and routed case-study interfaces"
                                  ],
                        "evidence":  [
-                                        "Verified through passing TypeScript/Vite build, 7 automated tests, rendered Chromium route walkthrough, responsive overflow matrix, source review, and PDF inspection as applicable."
+                                        "Verified through passing TypeScript/Vite build, 4 automated tests, rendered Chromium route walkthrough, responsive overflow matrix, source review, and PDF inspection as applicable."
                                     ]
                    },
                    {
@@ -483,7 +477,7 @@
                                      "Portfolio home and routed case-study interfaces"
                                  ],
                        "evidence":  [
-                                        "Verified through passing TypeScript/Vite build, 7 automated tests, rendered Chromium route walkthrough, responsive overflow matrix, source review, and PDF inspection as applicable."
+                                        "Verified through passing TypeScript/Vite build, 4 automated tests, rendered Chromium route walkthrough, responsive overflow matrix, source review, and PDF inspection as applicable."
                                     ]
                    },
                    {
@@ -495,7 +489,7 @@
                                      "Portfolio home and routed case-study interfaces"
                                  ],
                        "evidence":  [
-                                        "Verified through passing TypeScript/Vite build, 7 automated tests, rendered Chromium route walkthrough, responsive overflow matrix, source review, and PDF inspection as applicable."
+                                        "Verified through passing TypeScript/Vite build, 4 automated tests, rendered Chromium route walkthrough, responsive overflow matrix, source review, and PDF inspection as applicable."
                                     ]
                    },
                    {
@@ -507,7 +501,7 @@
                                      "Portfolio home and routed case-study interfaces"
                                  ],
                        "evidence":  [
-                                        "Verified through passing TypeScript/Vite build, 7 automated tests, rendered Chromium route walkthrough, responsive overflow matrix, source review, and PDF inspection as applicable."
+                                        "Verified through passing TypeScript/Vite build, 4 automated tests, rendered Chromium route walkthrough, responsive overflow matrix, source review, and PDF inspection as applicable."
                                     ]
                    },
                    {
@@ -519,7 +513,7 @@
                                      "Portfolio home and routed case-study interfaces"
                                  ],
                        "evidence":  [
-                                        "Verified through passing TypeScript/Vite build, 7 automated tests, rendered Chromium route walkthrough, responsive overflow matrix, source review, and PDF inspection as applicable."
+                                        "Verified through passing TypeScript/Vite build, 4 automated tests, rendered Chromium route walkthrough, responsive overflow matrix, source review, and PDF inspection as applicable."
                                     ]
                    },
                    {
@@ -531,7 +525,7 @@
                                      "Portfolio home and routed case-study interfaces"
                                  ],
                        "evidence":  [
-                                        "Verified through passing TypeScript/Vite build, 7 automated tests, rendered Chromium route walkthrough, responsive overflow matrix, source review, and PDF inspection as applicable."
+                                        "Verified through passing TypeScript/Vite build, 4 automated tests, rendered Chromium route walkthrough, responsive overflow matrix, source review, and PDF inspection as applicable."
                                     ]
                    },
                    {
@@ -543,7 +537,7 @@
                                      "Portfolio home and routed case-study interfaces"
                                  ],
                        "evidence":  [
-                                        "Verified through passing TypeScript/Vite build, 7 automated tests, rendered Chromium route walkthrough, responsive overflow matrix, source review, and PDF inspection as applicable."
+                                        "Verified through passing TypeScript/Vite build, 4 automated tests, rendered Chromium route walkthrough, responsive overflow matrix, source review, and PDF inspection as applicable."
                                     ]
                    },
                    {
@@ -555,7 +549,7 @@
                                      "Portfolio home and routed case-study interfaces"
                                  ],
                        "evidence":  [
-                                        "Verified through passing TypeScript/Vite build, 7 automated tests, rendered Chromium route walkthrough, responsive overflow matrix, source review, and PDF inspection as applicable."
+                                        "Verified through passing TypeScript/Vite build, 4 automated tests, rendered Chromium route walkthrough, responsive overflow matrix, source review, and PDF inspection as applicable."
                                     ]
                    },
                    {
@@ -567,7 +561,7 @@
                                      "Portfolio home and routed case-study interfaces"
                                  ],
                        "evidence":  [
-                                        "Verified through passing TypeScript/Vite build, 7 automated tests, rendered Chromium route walkthrough, responsive overflow matrix, source review, and PDF inspection as applicable."
+                                        "Verified through passing TypeScript/Vite build, 4 automated tests, rendered Chromium route walkthrough, responsive overflow matrix, source review, and PDF inspection as applicable."
                                     ]
                    },
                    {
@@ -579,7 +573,7 @@
                                      "Portfolio home and routed case-study interfaces"
                                  ],
                        "evidence":  [
-                                        "Verified through passing TypeScript/Vite build, 7 automated tests, rendered Chromium route walkthrough, responsive overflow matrix, source review, and PDF inspection as applicable."
+                                        "Verified through passing TypeScript/Vite build, 4 automated tests, rendered Chromium route walkthrough, responsive overflow matrix, source review, and PDF inspection as applicable."
                                     ]
                    },
                    {
@@ -591,7 +585,7 @@
                                      "Portfolio home and routed case-study interfaces"
                                  ],
                        "evidence":  [
-                                        "Verified through passing TypeScript/Vite build, 7 automated tests, rendered Chromium route walkthrough, responsive overflow matrix, source review, and PDF inspection as applicable."
+                                        "Verified through passing TypeScript/Vite build, 4 automated tests, rendered Chromium route walkthrough, responsive overflow matrix, source review, and PDF inspection as applicable."
                                     ]
                    },
                    {
@@ -603,7 +597,7 @@
                                      "Portfolio home and routed case-study interfaces"
                                  ],
                        "evidence":  [
-                                        "Verified through passing TypeScript/Vite build, 7 automated tests, rendered Chromium route walkthrough, responsive overflow matrix, source review, and PDF inspection as applicable."
+                                        "Verified through passing TypeScript/Vite build, 4 automated tests, rendered Chromium route walkthrough, responsive overflow matrix, source review, and PDF inspection as applicable."
                                     ]
                    },
                    {
@@ -615,7 +609,7 @@
                                      "Portfolio home and routed case-study interfaces"
                                  ],
                        "evidence":  [
-                                        "Verified through passing TypeScript/Vite build, 7 automated tests, rendered Chromium route walkthrough, responsive overflow matrix, source review, and PDF inspection as applicable."
+                                        "Verified through passing TypeScript/Vite build, 4 automated tests, rendered Chromium route walkthrough, responsive overflow matrix, source review, and PDF inspection as applicable."
                                     ]
                    },
                    {
@@ -627,7 +621,7 @@
                                      "Portfolio home and routed case-study interfaces"
                                  ],
                        "evidence":  [
-                                        "Verified through passing TypeScript/Vite build, 7 automated tests, rendered Chromium route walkthrough, responsive overflow matrix, source review, and PDF inspection as applicable."
+                                        "Verified through passing TypeScript/Vite build, 4 automated tests, rendered Chromium route walkthrough, responsive overflow matrix, source review, and PDF inspection as applicable."
                                     ]
                    },
                    {
@@ -639,7 +633,7 @@
                                      "Portfolio home and routed case-study interfaces"
                                  ],
                        "evidence":  [
-                                        "Verified through passing TypeScript/Vite build, 7 automated tests, rendered Chromium route walkthrough, responsive overflow matrix, source review, and PDF inspection as applicable."
+                                        "Verified through passing TypeScript/Vite build, 4 automated tests, rendered Chromium route walkthrough, responsive overflow matrix, source review, and PDF inspection as applicable."
                                     ]
                    },
                    {
@@ -651,7 +645,7 @@
                                      "Portfolio home and routed case-study interfaces"
                                  ],
                        "evidence":  [
-                                        "Verified through passing TypeScript/Vite build, 7 automated tests, rendered Chromium route walkthrough, responsive overflow matrix, source review, and PDF inspection as applicable."
+                                        "Verified through passing TypeScript/Vite build, 4 automated tests, rendered Chromium route walkthrough, responsive overflow matrix, source review, and PDF inspection as applicable."
                                     ]
                    },
                    {
@@ -663,7 +657,7 @@
                                      "Portfolio home and routed case-study interfaces"
                                  ],
                        "evidence":  [
-                                        "Verified through passing TypeScript/Vite build, 7 automated tests, rendered Chromium route walkthrough, responsive overflow matrix, source review, and PDF inspection as applicable."
+                                        "Verified through passing TypeScript/Vite build, 4 automated tests, rendered Chromium route walkthrough, responsive overflow matrix, source review, and PDF inspection as applicable."
                                     ]
                    },
                    {
@@ -675,7 +669,7 @@
                                      "Portfolio home and routed case-study interfaces"
                                  ],
                        "evidence":  [
-                                        "Verified through passing TypeScript/Vite build, 7 automated tests, rendered Chromium route walkthrough, responsive overflow matrix, source review, and PDF inspection as applicable."
+                                        "Verified through passing TypeScript/Vite build, 4 automated tests, rendered Chromium route walkthrough, responsive overflow matrix, source review, and PDF inspection as applicable."
                                     ]
                    },
                    {
@@ -687,7 +681,7 @@
                                      "Portfolio home and routed case-study interfaces"
                                  ],
                        "evidence":  [
-                                        "Verified through passing TypeScript/Vite build, 7 automated tests, rendered Chromium route walkthrough, responsive overflow matrix, source review, and PDF inspection as applicable."
+                                        "Verified through passing TypeScript/Vite build, 4 automated tests, rendered Chromium route walkthrough, responsive overflow matrix, source review, and PDF inspection as applicable."
                                     ]
                    },
                    {
@@ -699,7 +693,7 @@
                                      "Portfolio home and routed case-study interfaces"
                                  ],
                        "evidence":  [
-                                        "Verified through passing TypeScript/Vite build, 7 automated tests, rendered Chromium route walkthrough, responsive overflow matrix, source review, and PDF inspection as applicable."
+                                        "Verified through passing TypeScript/Vite build, 4 automated tests, rendered Chromium route walkthrough, responsive overflow matrix, source review, and PDF inspection as applicable."
                                     ]
                    },
                    {
@@ -711,7 +705,7 @@
                                      "Portfolio home and routed case-study interfaces"
                                  ],
                        "evidence":  [
-                                        "Verified through passing TypeScript/Vite build, 7 automated tests, rendered Chromium route walkthrough, responsive overflow matrix, source review, and PDF inspection as applicable."
+                                        "Verified through passing TypeScript/Vite build, 4 automated tests, rendered Chromium route walkthrough, responsive overflow matrix, source review, and PDF inspection as applicable."
                                     ]
                    },
                    {
@@ -723,7 +717,7 @@
                                      "Portfolio home and routed case-study interfaces"
                                  ],
                        "evidence":  [
-                                        "Verified through passing TypeScript/Vite build, 7 automated tests, rendered Chromium route walkthrough, responsive overflow matrix, source review, and PDF inspection as applicable."
+                                        "Verified through passing TypeScript/Vite build, 4 automated tests, rendered Chromium route walkthrough, responsive overflow matrix, source review, and PDF inspection as applicable."
                                     ]
                    },
                    {
@@ -735,7 +729,7 @@
                                      "Portfolio home and routed case-study interfaces"
                                  ],
                        "evidence":  [
-                                        "Verified through passing TypeScript/Vite build, 7 automated tests, rendered Chromium route walkthrough, responsive overflow matrix, source review, and PDF inspection as applicable."
+                                        "Verified through passing TypeScript/Vite build, 4 automated tests, rendered Chromium route walkthrough, responsive overflow matrix, source review, and PDF inspection as applicable."
                                     ]
                    },
                    {
@@ -747,7 +741,7 @@
                                      "Portfolio home and routed case-study interfaces"
                                  ],
                        "evidence":  [
-                                        "Verified through passing TypeScript/Vite build, 7 automated tests, rendered Chromium route walkthrough, responsive overflow matrix, source review, and PDF inspection as applicable."
+                                        "Verified through passing TypeScript/Vite build, 4 automated tests, rendered Chromium route walkthrough, responsive overflow matrix, source review, and PDF inspection as applicable."
                                     ]
                    },
                    {
@@ -759,7 +753,7 @@
                                      "Portfolio home and routed case-study interfaces"
                                  ],
                        "evidence":  [
-                                        "Verified through passing TypeScript/Vite build, 7 automated tests, rendered Chromium route walkthrough, responsive overflow matrix, source review, and PDF inspection as applicable."
+                                        "Verified through passing TypeScript/Vite build, 4 automated tests, rendered Chromium route walkthrough, responsive overflow matrix, source review, and PDF inspection as applicable."
                                     ]
                    },
                    {
@@ -771,7 +765,7 @@
                                      "Portfolio home and routed case-study interfaces"
                                  ],
                        "evidence":  [
-                                        "Verified through passing TypeScript/Vite build, 7 automated tests, rendered Chromium route walkthrough, responsive overflow matrix, source review, and PDF inspection as applicable."
+                                        "Verified through passing TypeScript/Vite build, 4 automated tests, rendered Chromium route walkthrough, responsive overflow matrix, source review, and PDF inspection as applicable."
                                     ]
                    },
                    {
@@ -783,7 +777,7 @@
                                      "Portfolio home and routed case-study interfaces"
                                  ],
                        "evidence":  [
-                                        "Verified through passing TypeScript/Vite build, 7 automated tests, rendered Chromium route walkthrough, responsive overflow matrix, source review, and PDF inspection as applicable."
+                                        "Verified through passing TypeScript/Vite build, 4 automated tests, rendered Chromium route walkthrough, responsive overflow matrix, source review, and PDF inspection as applicable."
                                     ]
                    },
                    {
@@ -795,7 +789,7 @@
                                      "Portfolio home and routed case-study interfaces"
                                  ],
                        "evidence":  [
-                                        "Verified through passing TypeScript/Vite build, 7 automated tests, rendered Chromium route walkthrough, responsive overflow matrix, source review, and PDF inspection as applicable."
+                                        "Verified through passing TypeScript/Vite build, 4 automated tests, rendered Chromium route walkthrough, responsive overflow matrix, source review, and PDF inspection as applicable."
                                     ]
                    },
                    {
@@ -807,7 +801,7 @@
                                      "Portfolio home and routed case-study interfaces"
                                  ],
                        "evidence":  [
-                                        "Verified through passing TypeScript/Vite build, 7 automated tests, rendered Chromium route walkthrough, responsive overflow matrix, source review, and PDF inspection as applicable."
+                                        "Verified through passing TypeScript/Vite build, 4 automated tests, rendered Chromium route walkthrough, responsive overflow matrix, source review, and PDF inspection as applicable."
                                     ]
                    },
                    {
@@ -819,7 +813,7 @@
                                      "Portfolio home and routed case-study interfaces"
                                  ],
                        "evidence":  [
-                                        "Verified through passing TypeScript/Vite build, 7 automated tests, rendered Chromium route walkthrough, responsive overflow matrix, source review, and PDF inspection as applicable."
+                                        "Verified through passing TypeScript/Vite build, 4 automated tests, rendered Chromium route walkthrough, responsive overflow matrix, source review, and PDF inspection as applicable."
                                     ]
                    },
                    {
@@ -831,7 +825,7 @@
                                      "Portfolio home and routed case-study interfaces"
                                  ],
                        "evidence":  [
-                                        "Verified through passing TypeScript/Vite build, 7 automated tests, rendered Chromium route walkthrough, responsive overflow matrix, source review, and PDF inspection as applicable."
+                                        "Verified through passing TypeScript/Vite build, 4 automated tests, rendered Chromium route walkthrough, responsive overflow matrix, source review, and PDF inspection as applicable."
                                     ]
                    },
                    {
@@ -843,7 +837,7 @@
                                      "Portfolio home and routed case-study interfaces"
                                  ],
                        "evidence":  [
-                                        "Verified through passing TypeScript/Vite build, 7 automated tests, rendered Chromium route walkthrough, responsive overflow matrix, source review, and PDF inspection as applicable."
+                                        "Verified through passing TypeScript/Vite build, 4 automated tests, rendered Chromium route walkthrough, responsive overflow matrix, source review, and PDF inspection as applicable."
                                     ]
                    },
                    {
@@ -933,7 +927,7 @@
                                      "Portfolio home and routed case-study interfaces"
                                  ],
                        "evidence":  [
-                                        "Verified through passing TypeScript/Vite build, 7 automated tests, rendered Chromium route walkthrough, responsive overflow matrix, source review, and PDF inspection as applicable."
+                                        "Verified through passing TypeScript/Vite build, 4 automated tests, rendered Chromium route walkthrough, responsive overflow matrix, source review, and PDF inspection as applicable."
                                     ]
                    },
                    {
@@ -945,7 +939,7 @@
                                      "Portfolio home and routed case-study interfaces"
                                  ],
                        "evidence":  [
-                                        "Verified through passing TypeScript/Vite build, 7 automated tests, rendered Chromium route walkthrough, responsive overflow matrix, source review, and PDF inspection as applicable."
+                                        "Verified through passing TypeScript/Vite build, 4 automated tests, rendered Chromium route walkthrough, responsive overflow matrix, source review, and PDF inspection as applicable."
                                     ]
                    },
                    {
@@ -957,7 +951,7 @@
                                      "Portfolio home and routed case-study interfaces"
                                  ],
                        "evidence":  [
-                                        "Verified through passing TypeScript/Vite build, 7 automated tests, rendered Chromium route walkthrough, responsive overflow matrix, source review, and PDF inspection as applicable."
+                                        "Verified through passing TypeScript/Vite build, 4 automated tests, rendered Chromium route walkthrough, responsive overflow matrix, source review, and PDF inspection as applicable."
                                     ]
                    },
                    {
@@ -982,7 +976,7 @@
                                      "Portfolio home and routed case-study interfaces"
                                  ],
                        "evidence":  [
-                                        "Verified through passing TypeScript/Vite build, 7 automated tests, rendered Chromium route walkthrough, responsive overflow matrix, source review, and PDF inspection as applicable."
+                                        "Verified through passing TypeScript/Vite build, 4 automated tests, rendered Chromium route walkthrough, responsive overflow matrix, source review, and PDF inspection as applicable."
                                     ]
                    },
                    {
@@ -994,7 +988,7 @@
                                      "Portfolio home and routed case-study interfaces"
                                  ],
                        "evidence":  [
-                                        "Verified through passing TypeScript/Vite build, 7 automated tests, rendered Chromium route walkthrough, responsive overflow matrix, source review, and PDF inspection as applicable."
+                                        "Verified through passing TypeScript/Vite build, 4 automated tests, rendered Chromium route walkthrough, responsive overflow matrix, source review, and PDF inspection as applicable."
                                     ]
                    },
                    {
@@ -1006,7 +1000,7 @@
                                      "Portfolio home and routed case-study interfaces"
                                  ],
                        "evidence":  [
-                                        "Verified through passing TypeScript/Vite build, 7 automated tests, rendered Chromium route walkthrough, responsive overflow matrix, source review, and PDF inspection as applicable."
+                                        "Verified through passing TypeScript/Vite build, 4 automated tests, rendered Chromium route walkthrough, responsive overflow matrix, source review, and PDF inspection as applicable."
                                     ]
                    },
                    {
@@ -1044,7 +1038,7 @@
                                      "Portfolio home and routed case-study interfaces"
                                  ],
                        "evidence":  [
-                                        "Verified through passing TypeScript/Vite build, 7 automated tests, rendered Chromium route walkthrough, responsive overflow matrix, source review, and PDF inspection as applicable."
+                                        "Verified through passing TypeScript/Vite build, 4 automated tests, rendered Chromium route walkthrough, responsive overflow matrix, source review, and PDF inspection as applicable."
                                     ]
                    },
                    {
@@ -1056,7 +1050,7 @@
                                      "Portfolio home and routed case-study interfaces"
                                  ],
                        "evidence":  [
-                                        "Verified through passing TypeScript/Vite build, 7 automated tests, rendered Chromium route walkthrough, responsive overflow matrix, source review, and PDF inspection as applicable."
+                                        "Verified through passing TypeScript/Vite build, 4 automated tests, rendered Chromium route walkthrough, responsive overflow matrix, source review, and PDF inspection as applicable."
                                     ]
                    },
                    {
@@ -1068,7 +1062,7 @@
                                      "Portfolio home and routed case-study interfaces"
                                  ],
                        "evidence":  [
-                                        "Verified through passing TypeScript/Vite build, 7 automated tests, rendered Chromium route walkthrough, responsive overflow matrix, source review, and PDF inspection as applicable."
+                                        "Verified through passing TypeScript/Vite build, 4 automated tests, rendered Chromium route walkthrough, responsive overflow matrix, source review, and PDF inspection as applicable."
                                     ]
                    },
                    {
@@ -1093,7 +1087,7 @@
                                      "Portfolio home and routed case-study interfaces"
                                  ],
                        "evidence":  [
-                                        "Verified through passing TypeScript/Vite build, 7 automated tests, rendered Chromium route walkthrough, responsive overflow matrix, source review, and PDF inspection as applicable."
+                                        "Verified through passing TypeScript/Vite build, 4 automated tests, rendered Chromium route walkthrough, responsive overflow matrix, source review, and PDF inspection as applicable."
                                     ]
                    },
                    {
@@ -1105,7 +1099,7 @@
                                      "Portfolio home and routed case-study interfaces"
                                  ],
                        "evidence":  [
-                                        "Verified through passing TypeScript/Vite build, 7 automated tests, rendered Chromium route walkthrough, responsive overflow matrix, source review, and PDF inspection as applicable."
+                                        "Verified through passing TypeScript/Vite build, 4 automated tests, rendered Chromium route walkthrough, responsive overflow matrix, source review, and PDF inspection as applicable."
                                     ]
                    },
                    {
@@ -1117,7 +1111,7 @@
                                      "Portfolio home and routed case-study interfaces"
                                  ],
                        "evidence":  [
-                                        "Verified through passing TypeScript/Vite build, 7 automated tests, rendered Chromium route walkthrough, responsive overflow matrix, source review, and PDF inspection as applicable."
+                                        "Verified through passing TypeScript/Vite build, 4 automated tests, rendered Chromium route walkthrough, responsive overflow matrix, source review, and PDF inspection as applicable."
                                     ]
                    },
                    {
@@ -1129,7 +1123,7 @@
                                      "Portfolio home and routed case-study interfaces"
                                  ],
                        "evidence":  [
-                                        "Verified through passing TypeScript/Vite build, 7 automated tests, rendered Chromium route walkthrough, responsive overflow matrix, source review, and PDF inspection as applicable."
+                                        "Verified through passing TypeScript/Vite build, 4 automated tests, rendered Chromium route walkthrough, responsive overflow matrix, source review, and PDF inspection as applicable."
                                     ]
                    },
                    {
@@ -1141,7 +1135,7 @@
                                      "Portfolio home and routed case-study interfaces"
                                  ],
                        "evidence":  [
-                                        "Verified through passing TypeScript/Vite build, 7 automated tests, rendered Chromium route walkthrough, responsive overflow matrix, source review, and PDF inspection as applicable."
+                                        "Verified through passing TypeScript/Vite build, 4 automated tests, rendered Chromium route walkthrough, responsive overflow matrix, source review, and PDF inspection as applicable."
                                     ]
                    },
                    {
@@ -1153,7 +1147,7 @@
                                      "Portfolio home and routed case-study interfaces"
                                  ],
                        "evidence":  [
-                                        "Verified through passing TypeScript/Vite build, 7 automated tests, rendered Chromium route walkthrough, responsive overflow matrix, source review, and PDF inspection as applicable."
+                                        "Verified through passing TypeScript/Vite build, 4 automated tests, rendered Chromium route walkthrough, responsive overflow matrix, source review, and PDF inspection as applicable."
                                     ]
                    },
                    {
@@ -1165,7 +1159,7 @@
                                      "Portfolio home and routed case-study interfaces"
                                  ],
                        "evidence":  [
-                                        "Verified through passing TypeScript/Vite build, 7 automated tests, rendered Chromium route walkthrough, responsive overflow matrix, source review, and PDF inspection as applicable."
+                                        "Verified through passing TypeScript/Vite build, 4 automated tests, rendered Chromium route walkthrough, responsive overflow matrix, source review, and PDF inspection as applicable."
                                     ]
                    },
                    {
@@ -1177,7 +1171,7 @@
                                      "Portfolio home and routed case-study interfaces"
                                  ],
                        "evidence":  [
-                                        "Verified through passing TypeScript/Vite build, 7 automated tests, rendered Chromium route walkthrough, responsive overflow matrix, source review, and PDF inspection as applicable."
+                                        "Verified through passing TypeScript/Vite build, 4 automated tests, rendered Chromium route walkthrough, responsive overflow matrix, source review, and PDF inspection as applicable."
                                     ]
                    },
                    {
@@ -1189,7 +1183,7 @@
                                      "Portfolio home and routed case-study interfaces"
                                  ],
                        "evidence":  [
-                                        "Verified through passing TypeScript/Vite build, 7 automated tests, rendered Chromium route walkthrough, responsive overflow matrix, source review, and PDF inspection as applicable."
+                                        "Verified through passing TypeScript/Vite build, 4 automated tests, rendered Chromium route walkthrough, responsive overflow matrix, source review, and PDF inspection as applicable."
                                     ]
                    },
                    {
@@ -1201,7 +1195,7 @@
                                      "Portfolio home and routed case-study interfaces"
                                  ],
                        "evidence":  [
-                                        "Verified through passing TypeScript/Vite build, 7 automated tests, rendered Chromium route walkthrough, responsive overflow matrix, source review, and PDF inspection as applicable."
+                                        "Verified through passing TypeScript/Vite build, 4 automated tests, rendered Chromium route walkthrough, responsive overflow matrix, source review, and PDF inspection as applicable."
                                     ]
                    },
                    {
@@ -1213,7 +1207,7 @@
                                      "Portfolio home and routed case-study interfaces"
                                  ],
                        "evidence":  [
-                                        "Verified through passing TypeScript/Vite build, 7 automated tests, rendered Chromium route walkthrough, responsive overflow matrix, source review, and PDF inspection as applicable."
+                                        "Verified through passing TypeScript/Vite build, 4 automated tests, rendered Chromium route walkthrough, responsive overflow matrix, source review, and PDF inspection as applicable."
                                     ]
                    },
                    {
@@ -1238,7 +1232,7 @@
                                      "Portfolio home and routed case-study interfaces"
                                  ],
                        "evidence":  [
-                                        "Verified through passing TypeScript/Vite build, 7 automated tests, rendered Chromium route walkthrough, responsive overflow matrix, source review, and PDF inspection as applicable."
+                                        "Verified through passing TypeScript/Vite build, 4 automated tests, rendered Chromium route walkthrough, responsive overflow matrix, source review, and PDF inspection as applicable."
                                     ]
                    },
                    {
@@ -1250,7 +1244,7 @@
                                      "Portfolio home and routed case-study interfaces"
                                  ],
                        "evidence":  [
-                                        "Verified through passing TypeScript/Vite build, 7 automated tests, rendered Chromium route walkthrough, responsive overflow matrix, source review, and PDF inspection as applicable."
+                                        "Verified through passing TypeScript/Vite build, 4 automated tests, rendered Chromium route walkthrough, responsive overflow matrix, source review, and PDF inspection as applicable."
                                     ]
                    },
                    {
@@ -1262,7 +1256,7 @@
                                      "Portfolio home and routed case-study interfaces"
                                  ],
                        "evidence":  [
-                                        "Verified through passing TypeScript/Vite build, 7 automated tests, rendered Chromium route walkthrough, responsive overflow matrix, source review, and PDF inspection as applicable."
+                                        "Verified through passing TypeScript/Vite build, 4 automated tests, rendered Chromium route walkthrough, responsive overflow matrix, source review, and PDF inspection as applicable."
                                     ]
                    },
                    {
@@ -1287,7 +1281,7 @@
                                      "Portfolio home and routed case-study interfaces"
                                  ],
                        "evidence":  [
-                                        "Verified through passing TypeScript/Vite build, 7 automated tests, rendered Chromium route walkthrough, responsive overflow matrix, source review, and PDF inspection as applicable."
+                                        "Verified through passing TypeScript/Vite build, 4 automated tests, rendered Chromium route walkthrough, responsive overflow matrix, source review, and PDF inspection as applicable."
                                     ]
                    },
                    {
@@ -1299,7 +1293,7 @@
                                      "Portfolio home and routed case-study interfaces"
                                  ],
                        "evidence":  [
-                                        "Verified through passing TypeScript/Vite build, 7 automated tests, rendered Chromium route walkthrough, responsive overflow matrix, source review, and PDF inspection as applicable."
+                                        "Verified through passing TypeScript/Vite build, 4 automated tests, rendered Chromium route walkthrough, responsive overflow matrix, source review, and PDF inspection as applicable."
                                     ]
                    },
                    {
@@ -1311,7 +1305,7 @@
                                      "Portfolio home and routed case-study interfaces"
                                  ],
                        "evidence":  [
-                                        "Verified through passing TypeScript/Vite build, 7 automated tests, rendered Chromium route walkthrough, responsive overflow matrix, source review, and PDF inspection as applicable."
+                                        "Verified through passing TypeScript/Vite build, 4 automated tests, rendered Chromium route walkthrough, responsive overflow matrix, source review, and PDF inspection as applicable."
                                     ]
                    },
                    {
@@ -1323,7 +1317,7 @@
                                      "Portfolio home and routed case-study interfaces"
                                  ],
                        "evidence":  [
-                                        "Verified through passing TypeScript/Vite build, 7 automated tests, rendered Chromium route walkthrough, responsive overflow matrix, source review, and PDF inspection as applicable."
+                                        "Verified through passing TypeScript/Vite build, 4 automated tests, rendered Chromium route walkthrough, responsive overflow matrix, source review, and PDF inspection as applicable."
                                     ]
                    },
                    {
@@ -1335,7 +1329,7 @@
                                      "Portfolio home and routed case-study interfaces"
                                  ],
                        "evidence":  [
-                                        "Verified through passing TypeScript/Vite build, 7 automated tests, rendered Chromium route walkthrough, responsive overflow matrix, source review, and PDF inspection as applicable."
+                                        "Verified through passing TypeScript/Vite build, 4 automated tests, rendered Chromium route walkthrough, responsive overflow matrix, source review, and PDF inspection as applicable."
                                     ]
                    },
                    {
@@ -1347,7 +1341,7 @@
                                      "Portfolio home and routed case-study interfaces"
                                  ],
                        "evidence":  [
-                                        "Verified through passing TypeScript/Vite build, 7 automated tests, rendered Chromium route walkthrough, responsive overflow matrix, source review, and PDF inspection as applicable."
+                                        "Verified through passing TypeScript/Vite build, 4 automated tests, rendered Chromium route walkthrough, responsive overflow matrix, source review, and PDF inspection as applicable."
                                     ]
                    },
                    {
@@ -1385,7 +1379,7 @@
                                      "Portfolio home and routed case-study interfaces"
                                  ],
                        "evidence":  [
-                                        "Verified through passing TypeScript/Vite build, 7 automated tests, rendered Chromium route walkthrough, responsive overflow matrix, source review, and PDF inspection as applicable."
+                                        "Verified through passing TypeScript/Vite build, 4 automated tests, rendered Chromium route walkthrough, responsive overflow matrix, source review, and PDF inspection as applicable."
                                     ]
                    },
                    {
@@ -1397,7 +1391,7 @@
                                      "Portfolio home and routed case-study interfaces"
                                  ],
                        "evidence":  [
-                                        "Verified through passing TypeScript/Vite build, 7 automated tests, rendered Chromium route walkthrough, responsive overflow matrix, source review, and PDF inspection as applicable."
+                                        "Verified through passing TypeScript/Vite build, 4 automated tests, rendered Chromium route walkthrough, responsive overflow matrix, source review, and PDF inspection as applicable."
                                     ]
                    },
                    {
@@ -1409,7 +1403,7 @@
                                      "Portfolio home and routed case-study interfaces"
                                  ],
                        "evidence":  [
-                                        "Verified through passing TypeScript/Vite build, 7 automated tests, rendered Chromium route walkthrough, responsive overflow matrix, source review, and PDF inspection as applicable."
+                                        "Verified through passing TypeScript/Vite build, 4 automated tests, rendered Chromium route walkthrough, responsive overflow matrix, source review, and PDF inspection as applicable."
                                     ]
                    },
                    {
@@ -1421,7 +1415,7 @@
                                      "Portfolio home and routed case-study interfaces"
                                  ],
                        "evidence":  [
-                                        "Verified through passing TypeScript/Vite build, 7 automated tests, rendered Chromium route walkthrough, responsive overflow matrix, source review, and PDF inspection as applicable."
+                                        "Verified through passing TypeScript/Vite build, 4 automated tests, rendered Chromium route walkthrough, responsive overflow matrix, source review, and PDF inspection as applicable."
                                     ]
                    },
                    {
@@ -1433,7 +1427,7 @@
                                      "Portfolio home and routed case-study interfaces"
                                  ],
                        "evidence":  [
-                                        "Verified through passing TypeScript/Vite build, 7 automated tests, rendered Chromium route walkthrough, responsive overflow matrix, source review, and PDF inspection as applicable."
+                                        "Verified through passing TypeScript/Vite build, 4 automated tests, rendered Chromium route walkthrough, responsive overflow matrix, source review, and PDF inspection as applicable."
                                     ]
                    },
                    {
@@ -1445,7 +1439,7 @@
                                      "Portfolio home and routed case-study interfaces"
                                  ],
                        "evidence":  [
-                                        "Verified through passing TypeScript/Vite build, 7 automated tests, rendered Chromium route walkthrough, responsive overflow matrix, source review, and PDF inspection as applicable."
+                                        "Verified through passing TypeScript/Vite build, 4 automated tests, rendered Chromium route walkthrough, responsive overflow matrix, source review, and PDF inspection as applicable."
                                     ]
                    },
                    {
@@ -1457,7 +1451,7 @@
                                      "Portfolio home and routed case-study interfaces"
                                  ],
                        "evidence":  [
-                                        "Verified through passing TypeScript/Vite build, 7 automated tests, rendered Chromium route walkthrough, responsive overflow matrix, source review, and PDF inspection as applicable."
+                                        "Verified through passing TypeScript/Vite build, 4 automated tests, rendered Chromium route walkthrough, responsive overflow matrix, source review, and PDF inspection as applicable."
                                     ]
                    },
                    {
@@ -1469,7 +1463,7 @@
                                      "Portfolio home and routed case-study interfaces"
                                  ],
                        "evidence":  [
-                                        "Verified through passing TypeScript/Vite build, 7 automated tests, rendered Chromium route walkthrough, responsive overflow matrix, source review, and PDF inspection as applicable."
+                                        "Verified through passing TypeScript/Vite build, 4 automated tests, rendered Chromium route walkthrough, responsive overflow matrix, source review, and PDF inspection as applicable."
                                     ]
                    },
                    {
@@ -1481,7 +1475,7 @@
                                      "Portfolio home and routed case-study interfaces"
                                  ],
                        "evidence":  [
-                                        "Verified through passing TypeScript/Vite build, 7 automated tests, rendered Chromium route walkthrough, responsive overflow matrix, source review, and PDF inspection as applicable."
+                                        "Verified through passing TypeScript/Vite build, 4 automated tests, rendered Chromium route walkthrough, responsive overflow matrix, source review, and PDF inspection as applicable."
                                     ]
                    },
                    {
@@ -1493,7 +1487,7 @@
                                      "Portfolio home and routed case-study interfaces"
                                  ],
                        "evidence":  [
-                                        "Verified through passing TypeScript/Vite build, 7 automated tests, rendered Chromium route walkthrough, responsive overflow matrix, source review, and PDF inspection as applicable."
+                                        "Verified through passing TypeScript/Vite build, 4 automated tests, rendered Chromium route walkthrough, responsive overflow matrix, source review, and PDF inspection as applicable."
                                     ]
                    },
                    {
@@ -1505,7 +1499,7 @@
                                      "Portfolio home and routed case-study interfaces"
                                  ],
                        "evidence":  [
-                                        "Verified through passing TypeScript/Vite build, 7 automated tests, rendered Chromium route walkthrough, responsive overflow matrix, source review, and PDF inspection as applicable."
+                                        "Verified through passing TypeScript/Vite build, 4 automated tests, rendered Chromium route walkthrough, responsive overflow matrix, source review, and PDF inspection as applicable."
                                     ]
                    },
                    {
@@ -1517,7 +1511,7 @@
                                      "Portfolio home and routed case-study interfaces"
                                  ],
                        "evidence":  [
-                                        "Verified through passing TypeScript/Vite build, 7 automated tests, rendered Chromium route walkthrough, responsive overflow matrix, source review, and PDF inspection as applicable."
+                                        "Verified through passing TypeScript/Vite build, 4 automated tests, rendered Chromium route walkthrough, responsive overflow matrix, source review, and PDF inspection as applicable."
                                     ]
                    },
                    {
@@ -1529,7 +1523,7 @@
                                      "Portfolio home and routed case-study interfaces"
                                  ],
                        "evidence":  [
-                                        "Verified through passing TypeScript/Vite build, 7 automated tests, rendered Chromium route walkthrough, responsive overflow matrix, source review, and PDF inspection as applicable."
+                                        "Verified through passing TypeScript/Vite build, 4 automated tests, rendered Chromium route walkthrough, responsive overflow matrix, source review, and PDF inspection as applicable."
                                     ]
                    },
                    {
@@ -1541,7 +1535,7 @@
                                      "Portfolio home and routed case-study interfaces"
                                  ],
                        "evidence":  [
-                                        "Verified through passing TypeScript/Vite build, 7 automated tests, rendered Chromium route walkthrough, responsive overflow matrix, source review, and PDF inspection as applicable."
+                                        "Verified through passing TypeScript/Vite build, 4 automated tests, rendered Chromium route walkthrough, responsive overflow matrix, source review, and PDF inspection as applicable."
                                     ]
                    },
                    {
@@ -1553,7 +1547,7 @@
                                      "Portfolio home and routed case-study interfaces"
                                  ],
                        "evidence":  [
-                                        "Verified through passing TypeScript/Vite build, 7 automated tests, rendered Chromium route walkthrough, responsive overflow matrix, source review, and PDF inspection as applicable."
+                                        "Verified through passing TypeScript/Vite build, 4 automated tests, rendered Chromium route walkthrough, responsive overflow matrix, source review, and PDF inspection as applicable."
                                     ]
                    },
                    {
@@ -1591,7 +1585,7 @@
                                      "Portfolio home and routed case-study interfaces"
                                  ],
                        "evidence":  [
-                                        "Verified through passing TypeScript/Vite build, 7 automated tests, rendered Chromium route walkthrough, responsive overflow matrix, source review, and PDF inspection as applicable."
+                                        "Verified through passing TypeScript/Vite build, 4 automated tests, rendered Chromium route walkthrough, responsive overflow matrix, source review, and PDF inspection as applicable."
                                     ]
                    }
                ],

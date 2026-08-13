@@ -1,6 +1,6 @@
 export interface Profile { name: string; role: string; statement: string; summary: string; email: string; location: string; github: string; portfolioUrl: string; }
 export interface EvidenceItem { value: string; label: string; detail: string; }
-export interface ProjectSummary { id: "meridian" | "carryover" | "luxen" | "halo"; title: string; descriptor: string; summary: string; path?: string; liveUrl: string; repoUrl?: string; poster: string; video?: string; technologies: string[]; }
+export interface ProjectSummary { id: "meridian" | "luxen" | "halo"; title: string; descriptor: string; summary: string; path?: string; liveUrl: string; repoUrl?: string; poster: string; video?: string; technologies: string[]; }
 export interface CaseStudy extends ProjectSummary { year: string; responsibilities: string[]; problem: string; disclosure: string; evidence: EvidenceItem[]; decisions: Array<{ title: string; body: string }>; reflection: string; }
 export interface ResumeEntry { title: string; subtitle: string; period?: string; bullets: string[]; }
 
@@ -44,35 +44,6 @@ export const MERIDIAN: CaseStudy = {
   reflection: "With real users, the next step would be role-based research with investment partners and founders, followed by a service-backed repository, authenticated permissions, multi-user conflict handling, and production observability. The current local workspace is intentionally a transparent demonstration boundary—not a simulated backend presented as production infrastructure.",
 };
 
-export const CARRYOVER: CaseStudy = {
-  id: "carryover",
-  title: "Carryover",
-  descriptor: "Shift continuity for the work that cannot be dropped",
-  summary: "A fictional plant-operations product that turns unresolved conditions into acknowledged, assigned, evidence-backed work across shifts.",
-  path: "/work/carryover",
-  liveUrl: "",
-  repoUrl: "https://github.com/justicebrutus/carryover",
-  poster: "/projects/carryover-overview.png",
-  technologies: ["React", "TypeScript", "Domain modeling", "Local persistence", "Vitest"],
-  year: "2026",
-  responsibilities: ["Product definition", "Industrial workflow modeling", "Interface architecture", "Implementation", "Release QA"],
-  problem: "Shift changes create a dangerous gap between what one person observed and what the next person must protect. Carryover makes the continuity decision, acknowledgement, ownership, evidence, and updated record one traceable path.",
-  disclosure: "Independent fictional product case study. All plants, people, equipment, incidents, actions, and records are invented and unrelated to any real employer.",
-  evidence: [
-    { value: "5", label: "workspaces", detail: "Overview, Handoffs, Issues, Actions, and Reports support one continuity journey." },
-    { value: "3", label: "role previews", detail: "Operator, supervisor, and manager controls change available demonstration actions." },
-    { value: "13", label: "passing tests", detail: "Domain transitions, recovery, permissions, filtering, and CSV behavior are verified." },
-    { value: "1", label: "operating record", detail: "Conditions, actions, evidence, and immutable audit entries remain connected." },
-  ],
-  decisions: [
-    { title: "Continuity before metrics", body: "The overview starts with unresolved operating pressure and the incoming priority, not decorative dashboard totals." },
-    { title: "Closure requires proof", body: "Actions cannot close without meaningful resolution evidence, and required approvals remain visible waiting states." },
-    { title: "Permissions without theatre", body: "Role preview changes product behavior while stating clearly that it is not authentication or security enforcement." },
-    { title: "Mobile becomes action order", body: "Desktop comparison tables become direct condition records and decision sequences on narrow screens." },
-  ],
-  reflection: "A real deployment would need authenticated roles, site-specific equipment taxonomy, attachment storage, offline conflict handling, integrations with maintenance systems, and operator research conducted on the floor. The current local adapter keeps those boundaries visible and replaceable.",
-};
-
 export const LAB_PROJECTS: ProjectSummary[] = [
   { id: "luxen", title: "Luxen Mix Analyzer", descriptor: "Browser audio workbench", summary: "Hand-written FFT, loudness metering, retuning, and spectral separation in a zero-dependency browser instrument.", liveUrl: "https://luxen-mix-analyzer.vercel.app", repoUrl: "https://github.com/justicebrutus/luxen-mix-analyzer", poster: "/posters/luxen.png", video: "/videos/luxen.mp4", technologies: ["JavaScript", "Web Audio", "Canvas", "DSP"] },
   { id: "halo", title: "HALO", descriptor: "Interactive creative technology", summary: "A canvas particle system with cursor physics, cached glow sprites, responsive motion, and reduced-motion behavior.", liveUrl: "https://halo-studio-pied.vercel.app", repoUrl: "https://github.com/justicebrutus/halo-studio", poster: "/posters/halo.png", video: "/videos/halo.mp4", technologies: ["React", "Canvas", "Motion", "Performance"] },
@@ -80,6 +51,6 @@ export const LAB_PROJECTS: ProjectSummary[] = [
 
 export const RESUME_PROJECTS: ResumeEntry[] = [
   { title: "Meridian Capital — Product case study", subtitle: "React · TypeScript · React Router · Vitest", period: "2026", bullets: ["Built a 27-route product experience spanning an editorial institutional website and a five-workspace portfolio console.", "Designed one typed 24-company record to drive portfolio claims, responsibility mapping, capital exceptions, reviews, filters, CSV reporting, and responsive company records.", "Implemented accessible interaction, reduced-motion behavior, versioned local persistence and recovery, and an automated suite covering core data and decision workflows."] },
-  { title: "Carryover — Plant-operations product case study", subtitle: "React · TypeScript · React Router · Vitest", period: "2026", bullets: ["Modeled an end-to-end shift-continuity workflow connecting observations, carryover decisions, acknowledgement, assigned actions, resolution evidence, and audit history.", "Built responsive Overview, Handoffs, Issues, Actions, and Reports workspaces with role-aware demonstration controls, versioned local recovery, printing, and CSV export.", "Verified domain transitions, permissions, filters, persistence recovery, and exports with 13 passing tests and a production TypeScript build."] },
   { title: "Luxen Mix Analyzer — Technical lab", subtitle: "JavaScript · Web Audio API · Canvas", bullets: ["Implemented a zero-dependency radix-2 FFT, loudness metering, phase-vocoder retuning, and spectral separation in a keyboard-operable browser interface."] },
+  { title: "HALO — Interactive creative technology", subtitle: "React · Canvas · Performance", bullets: ["Built a responsive particle system with cursor physics, cached glow sprites, performance controls, and a reduced-motion mode."] },
 ];

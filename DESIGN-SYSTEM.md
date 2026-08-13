@@ -13,10 +13,13 @@ A restrained engineering dossier: calm corporate typography, disciplined rules, 
 
 ## Composition
 
-- Home: identity → Meridian → Carryover → capabilities → Technical Lab → operating context → contact.
+- Home: résumé-scale identity and contact → professional profile → Meridian evidence record → capabilities and operating experience → compact Technical Lab → direct next step.
+- The home page is a digital engineering dossier, not a marketing landing page: no full-viewport hero, cinematic media, decorative feature deck, or oversized closing banner.
+- At desktop, the first viewport exposes identity, contact paths, professional profile, and the beginning of Meridian. At mobile, those become one direct document sequence.
+- Unreleased projects do not appear in navigation, résumé content, or public route metadata.
 - Case studies place each claim adjacent to system, route, test, or responsive evidence.
 - Desktop preserves comparison; tablet reduces parallel information; mobile returns to direct document order.
-- Project media uses fixed aspect ratios and dimensions to prevent layout shift.
+- Product screenshots use verified native dimensions, complete uncropped views, stable space, and explicit captions.
 
 ## Interaction and access
 
