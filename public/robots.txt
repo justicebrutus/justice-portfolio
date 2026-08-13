@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://justice-portfolio-nine.vercel.app/sitemap.xml

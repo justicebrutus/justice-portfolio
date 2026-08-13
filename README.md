@@ -1,41 +1,31 @@
-<div align="center">
+# Justice Brutus — Product-focused Front-End Engineer
 
-![Justice Brutus — portfolio](public/og-image.png)
+A recruiter-facing engineering portfolio built around two flagship product case studies:
 
-# Justice Brutus — Interactive Résumé
+- **Meridian Capital** — a 27-route fictional institution and five-workspace portfolio operating system with 46 passing tests.
+- **Carryover** — a fictional plant-continuity product with role-aware workflows, evidence-backed closure, printable reporting, and 13 passing tests.
 
-**A coded personal site where you can watch a 30-second tour of each project or launch the real app live, right in the page.**
+Luxen Mix Analyzer and HALO remain a compact Technical Lab demonstrating browser audio, Canvas, motion, and performance range.
 
-[**▶ Live**](https://justice-portfolio-nine.vercel.app) &nbsp;·&nbsp; [Run it locally](#run-it-locally)
+## Routes
 
-</div>
+- `/` — positioning, flagship evidence, technical lab, and operating experience.
+- `/work/meridian` — complete Meridian case study.
+- `/work/carryover` — complete Carryover case study.
+- `/resume` — semantic, print-ready résumé.
+- any unmatched route — deliberate 404 recovery.
 
----
-
-## What it is
-
-An interactive résumé — the page is itself a hand-coded React app. Each project sits in a browser-framed screen with three states: a **poster**, a **short video tour**, and the **live app embedded in an iframe**. Plus the essentials: skills, experience, a downloadable PDF résumé, and contact.
-
-Featured work (all live):
-- [Luxen Mix Analyzer](https://luxen-mix-analyzer.vercel.app) — hand-rolled audio DSP, zero dependencies.
-- [Brand Kit Generator](https://brand-kit-generator-five.vercel.app) — AI orchestration + real design engines.
-- [HALO](https://halo-studio-pied.vercel.app) — cinematic studio site with an interactive generative halo.
-
-## Video tours
-
-Each project has a 40–65s screen-captured tour in `public/videos/` (H.264 mp4, 720p, compressed for fast loading). If a video is ever missing, the component falls back to the poster image with "Try it live" — the site stays functional either way.
-
-## Run it locally
+## Run
 
 ```bash
 npm install
-npm run dev      # http://localhost:5173
+npm run dev
+npm test
+npm run build
 ```
 
-## Tech
+## Quality
 
-React 18 + Vite + Tailwind CSS. No dependencies beyond React. Accessible (WCAG AA contrast, keyboard-operable, reduced-motion aware).
+The portfolio uses shared typed profile, project, case-study, evidence, and résumé records so claims do not drift between surfaces. It includes keyboard navigation, visible focus, reduced-motion behavior, responsive recomposition from 320px through desktop, route-specific metadata, print styles, and a selectable one-page PDF résumé.
 
-## License
-
-Source under the [MIT License](LICENSE). © Justice Brutus.
+See [DESIGN-SYSTEM.md](DESIGN-SYSTEM.md) and [UI-AUDIT.md](UI-AUDIT.md) for the design and verification record.
