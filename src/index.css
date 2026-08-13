@@ -122,23 +122,25 @@ figure { margin: 0; }
 .disclosure { border-left: 3px solid var(--blue); padding: .5rem 0 .5rem 1.2rem; font-size: .85rem !important; color: var(--muted); }
 .case-actions { padding-block: var(--section); }
 .case-actions h2 { max-width: 850px; }
-.resume-page { max-width: 1000px; background: white; padding-top: 2rem; padding-bottom: 4rem; margin-block: 2rem; box-shadow: 0 10px 40px rgba(22,35,48,.08); }
+.resume-page { max-width: 1000px; background: white; padding-top: 2rem; padding-bottom: 3rem; margin-block: 2rem; box-shadow: 0 10px 40px rgba(22,35,48,.08); }
 .resume-actions { display: flex; justify-content: flex-end; gap: .7rem; align-items: center; margin-bottom: 3rem; }
 .resume-actions .text-link { margin-right: auto; }
-.resume-header { display: flex; justify-content: space-between; gap: 3rem; padding-bottom: 1.6rem; border-bottom: 3px solid var(--ink); }
-.resume-header h1 { font-size: clamp(2.5rem, 6vw, 4.6rem); margin-bottom: .3rem; }
+.resume-header { display: flex; justify-content: space-between; gap: 3rem; padding-bottom: 1.25rem; border-bottom: 3px solid var(--ink); }
+.resume-header h1 { font-size: clamp(2.5rem, 5vw, 4rem); margin-bottom: .25rem; }
 .resume-role { margin: 0; color: var(--blue); font-weight: 700; }
 .resume-header address { display: grid; align-content: end; justify-items: end; gap: .35rem; font-style: normal; font-size: .8rem; }
-.resume-summary, .resume-section { display: grid; grid-template-columns: 180px 1fr; gap: 2rem; padding-block: 1.35rem; border-bottom: 1px solid var(--line); }
+.resume-summary, .resume-section { display: grid; grid-template-columns: 165px 1fr; gap: 2rem; padding-block: 1.15rem; border-bottom: 1px solid var(--line); }
 .resume-summary h2, .resume-section > h2 { font: 700 .75rem "IBM Plex Mono"; text-transform: uppercase; letter-spacing: .12em; }
-.resume-summary p { margin: 0; font-size: .92rem; }
-.resume-records article + article { border-top: 1px solid var(--line); margin-top: 1.1rem; padding-top: 1.1rem; }
+.resume-summary p { margin: 0; color: var(--ink); font-size: .88rem; line-height: 1.55; }
+.resume-records article + article { border-top: 1px solid var(--line); margin-top: .9rem; padding-top: .9rem; }
 .resume-records header, .resume-job header { display: flex; justify-content: space-between; gap: 1rem; }
 .resume-records h3, .resume-job h3 { font-size: 1rem; margin-bottom: .25rem; }
 .resume-records header p, .resume-job header p, .resume-records header span, .resume-job header span { margin: 0; color: var(--muted); font-size: .75rem; }
-.resume-records ul, .resume-job ul { padding-left: 1.1rem; margin: .8rem 0 0; }
-.resume-records li, .resume-job li { color: var(--slate); font-size: .82rem; line-height: 1.5; margin-bottom: .35rem; }
-.skills-ledger { display: grid; gap: .7rem; }
+.resume-records ul, .resume-job ul { padding-left: 1.05rem; margin: .65rem 0 0; }
+.resume-records li, .resume-job li { color: var(--slate); font-size: .8rem; line-height: 1.45; margin-bottom: .32rem; }
+.resume-records article:first-child h3 { font-size: 1.08rem; }
+.resume-records article:first-child { padding-left: .8rem; border-left: 3px solid var(--blue); }
+.skills-ledger { display: grid; gap: .55rem; }
 .skills-ledger div { display: grid; grid-template-columns: 150px 1fr; gap: 1rem; font-size: .8rem; }
 .skills-ledger span { color: var(--slate); line-height: 1.5; }
 .resume-education { border: 0; }
@@ -334,6 +336,11 @@ figure { margin: 0; }
 }
 @media (max-width: 460px) {
   :root { --gutter: 1rem; }
+  .site-header { gap: .75rem; }
+  .wordmark { min-width: 0; max-width: calc(100% - 82px); }
+  .wordmark span { font-size: .92rem; }
+  .wordmark small { overflow: hidden; font-size: .52rem; letter-spacing: .055em; text-overflow: ellipsis; white-space: nowrap; }
+  .nav-toggle { flex: 0 0 auto; padding-inline: .72rem; }
   h1 { font-size: 2.8rem; }
   h2 { font-size: 2rem; }
   .button-row .button { width: 100%; }
@@ -383,7 +390,8 @@ figure { margin: 0; }
 }
 @media print {
   @page { size: Letter; margin: .42in .52in; }
-  body { background: white; }
+  html, body, .site-shell, main, .resume-page { background: white !important; }
+  html, body, .site-shell, main { min-height: 0 !important; }
   .site-header, .site-footer, .resume-actions { display: none !important; }
   .resume-page { width: auto; max-width: none; margin: 0; padding: 0; box-shadow: none; }
   .resume-header { padding-bottom: .12in; }
@@ -393,12 +401,13 @@ figure { margin: 0; }
   .resume-header h1 { font-size: 25pt; }
   .resume-role { font-size: 10pt; }
   .resume-header address { font-size: 7pt; }
-  .resume-summary, .resume-section { grid-template-columns: 1.22in 1fr; gap: .16in; padding-block: .1in; break-inside: avoid; }
+  .resume-summary, .resume-section { grid-template-columns: 1.14in 1fr; gap: .14in; padding-block: .08in; break-inside: avoid; }
   .resume-summary h2, .resume-section > h2 { font-size: 6.6pt; }
-  .resume-summary p, .resume-records li, .resume-job li, .skills-ledger, .resume-education p { font-size: 7.25pt; line-height: 1.32; }
+  .resume-summary p, .resume-records li, .resume-job li, .skills-ledger, .resume-education p { font-size: 7.05pt; line-height: 1.28; }
   .resume-records h3, .resume-job h3 { font-size: 8.4pt; }
   .resume-records header p, .resume-job header p, .resume-records header span, .resume-job header span { font-size: 6.6pt; }
-  .resume-records article + article { margin-top: .07in; padding-top: .07in; }
-  .resume-records ul, .resume-job ul { margin-top: .05in; }
+  .resume-records article + article { margin-top: .055in; padding-top: .055in; }
+  .resume-records article:first-child { padding-left: .08in; }
+  .resume-records ul, .resume-job ul { margin-top: .04in; }
   a { text-decoration: none; }
 }

@@ -28,6 +28,8 @@
 - Reworked the résumé into one semantic, ATS-readable page; visually inspected the final render and confirmed selectable text.
 - Verified the browser console is clean on the revised portfolio route.
 - Regenerated the downloadable résumé from the canonical page; verified one US Letter page and visually inspected the rendered output.
+- Rewrote the résumé around verified implementation evidence: Meridian now leads with architecture, typed data, persistence recovery, accessibility, responsive work modes, testing, and release QA rather than unsupported impact language or feature counts alone.
+- Tightened the mobile résumé header and print background, then rechecked web reflow at all five target widths and one-page ATS text extraction.
 
 ## Known release boundaries
 

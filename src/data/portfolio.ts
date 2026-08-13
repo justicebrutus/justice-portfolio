@@ -8,7 +8,7 @@ export const PROFILE: Profile = {
   name: "Justice Brutus",
   role: "Product-focused Front-End Engineer",
   statement: "I build interfaces that make complex products clear, credible, and usable.",
-  summary: "React and TypeScript product engineering with accessible interaction, responsive systems, and end-to-end release ownership.",
+  summary: "React and TypeScript engineer focused on data-rich interfaces, accessible interaction, responsive systems, and verified releases.",
   email: "justicebrutus4@gmail.com",
   location: "Ontario, Canada",
   github: "https://github.com/justicebrutus",
@@ -50,7 +50,7 @@ export const LAB_PROJECTS: ProjectSummary[] = [
 ];
 
 export const RESUME_PROJECTS: ResumeEntry[] = [
-  { title: "Meridian Capital — Product case study", subtitle: "React · TypeScript · React Router · Vitest", period: "2026", bullets: ["Built a 27-route product experience spanning an editorial institutional website and a five-workspace portfolio console.", "Designed one typed 24-company record to drive portfolio claims, responsibility mapping, capital exceptions, reviews, filters, CSV reporting, and responsive company records.", "Implemented accessible interaction, reduced-motion behavior, versioned local persistence and recovery, and an automated suite covering core data and decision workflows."] },
-  { title: "Luxen Mix Analyzer — Technical lab", subtitle: "JavaScript · Web Audio API · Canvas", bullets: ["Implemented a zero-dependency radix-2 FFT, loudness metering, phase-vocoder retuning, and spectral separation in a keyboard-operable browser interface."] },
-  { title: "HALO — Interactive creative technology", subtitle: "React · Canvas · Performance", bullets: ["Built a responsive particle system with cursor physics, cached glow sprites, performance controls, and a reduced-motion mode."] },
+  { title: "Meridian Capital — Independent product case study", subtitle: "React · TypeScript · React Router · Vitest", period: "2026", bullets: ["Architected and implemented a 27-route interface spanning an editorial investment-firm website and five connected portfolio-management workspaces.", "Created a shared typed data model powering 24 company records, capital tracking, review decisions, search and filtering, CSV exports, and print-ready reports.", "Built versioned local persistence with corruption recovery, keyboard-accessible workflows, reduced-motion support, and task-specific desktop, tablet, and mobile layouts.", "Verified core data and decision workflows with 46 automated tests, production builds, and browser QA across five target viewport sizes."] },
+  { title: "Luxen Mix Analyzer — Browser audio workbench", subtitle: "JavaScript · Web Audio API · Canvas · DSP", bullets: ["Implemented a zero-dependency radix-2 FFT, loudness metering, phase-vocoder retuning, and spectral separation in a keyboard-operable browser instrument."] },
+  { title: "HALO — Interactive canvas system", subtitle: "React · Canvas · Performance", bullets: ["Built a responsive particle system with cursor physics, cached glow sprites, performance controls, and reduced-motion behavior."] },
 ];
