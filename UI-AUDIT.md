@@ -16,11 +16,13 @@
 - Replaced the marketing-site sequence with a recruiter reading path: role and proof first, Meridian delivery evidence second, then experience and focused technical range.
 - Rebuilt the overview as a bounded 1120px digital dossier with résumé-scale typography, ruled records, adjacent claim-and-evidence composition, and no homepage marketing footer.
 - Removed Carryover from public navigation, routing, metadata, sitemap, and résumé until its release is approved.
-- Replaced the cropped 723×891 Meridian asset with a verified 1440×900 console capture and `object-fit: contain` presentation.
+- Reframed Meridian evidence as inspectable product plates: browser chrome, purpose-led captions, focused desktop crops, and a native-proportion mobile device view replace the undersized screenshot grid.
+- Reworked the homepage Meridian preview around the command centre's decision surface so the product remains legible beside the project summary.
 - Removed phone, portrait, LinkedIn, self-taught, unsupported seniority, and junior-signaling quantity claims.
 - Added dedicated routed case studies, route metadata, 404 recovery, sitemap, robots, and current-domain canonical metadata.
 - Replaced decorative media framing with fixed-dimension, captioned product evidence.
 - Verified no horizontal overflow at all five target widths on all primary routes in Chromium.
+- Rechecked the revised Meridian case-study evidence at 1440×900, 1024×768, 768×1024, 390×844, and 320×568 with zero broken images, zero horizontal overflow, and no browser warnings or errors.
 - Verified the refreshed dossier at 1440×900, 1024×768, 768×1024, 390×844, and 320×568; the desktop opening view includes profile and Meridian, while mobile preserves direct reading order.
 - Reworked the résumé into one semantic, ATS-readable page; visually inspected the final render and confirmed selectable text.
 - Verified the browser console is clean on the revised portfolio route.

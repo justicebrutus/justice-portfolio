@@ -42,8 +42,9 @@ export default function HomePage() {
       <header className="record-section-heading"><span>01</span><div><p className="eyebrow">Selected product work</p><h2 id="meridian-title">Meridian Capital</h2></div></header>
       <div className="flagship-grid">
         <figure className="flagship-image">
-          <img src="/projects/meridian-overview.png" alt="Complete desktop view of Meridian's portfolio operating console" width="1440" height="900" />
-          <figcaption>Portfolio operating system · complete desktop view</figcaption>
+          <div className="flagship-window-bar" aria-hidden="true"><i /><i /><i /><span>Meridian / Portfolio command centre</span></div>
+          <div className="flagship-screen-crop"><img src="/projects/meridian-overview.png" alt="Meridian portfolio command centre showing operating pressure and capital context" width="1440" height="900" /></div>
+          <figcaption><strong>Portfolio operating system</strong><span>Decision context shown at an inspectable scale.</span></figcaption>
         </figure>
         <div className="flagship-copy">
           <p className="project-type">Independent product case study · 2026</p>
