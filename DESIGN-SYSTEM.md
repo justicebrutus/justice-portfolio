@@ -13,10 +13,11 @@ A restrained engineering dossier: calm corporate typography, disciplined rules, 
 
 ## Composition
 
-- Home: résumé-scale identity and contact → professional profile → Meridian evidence record → capabilities and operating experience → compact Technical Lab → direct next step.
+- Home: résumé-scale identity and contact → professional profile → Meridian and Carryover evidence records → capabilities and operating experience → compact Technical Lab → direct next step.
 - The home page is a digital engineering dossier, not a marketing landing page: no full-viewport hero, cinematic media, decorative feature deck, or oversized closing banner.
 - At desktop, the first viewport exposes identity, contact paths, professional profile, and the beginning of Meridian. At mobile, those become one direct document sequence.
-- Unreleased projects do not appear in navigation, résumé content, or public route metadata.
+- Only released projects appear in case-study routes and résumé content. Meridian and Carryover are the two flagship records; Luxen and HALO remain a compact Technical Lab.
+- Live product windows use a verified captured frame beneath the embedded deployment, so slow or blocked third-party loading never leaves an empty evidence panel.
 - Case studies place each claim adjacent to system, route, test, or responsive evidence.
 - Desktop preserves comparison; tablet reduces parallel information; mobile returns to direct document order.
 - Product screenshots use verified native dimensions, complete uncropped views, stable space, and explicit captions.

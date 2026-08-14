@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { LAB_PROJECTS, MERIDIAN, PROFILE, RESUME_PROJECTS } from "./portfolio";
+import { CARRYOVER, LAB_PROJECTS, MERIDIAN, PROFILE, RESUME_PROJECTS } from "./portfolio";
 
 describe("canonical portfolio content", () => {
   it("uses professional positioning without unsupported seniority", () => {
@@ -7,10 +7,12 @@ describe("canonical portfolio content", () => {
     expect(JSON.stringify(PROFILE)).not.toMatch(/senior|self-taught|phone/i);
   });
 
-  it("keeps Meridian as the sole published flagship", () => {
+  it("publishes Meridian and Carryover as the two verified flagships", () => {
     expect(MERIDIAN.path).toBe("/work/meridian");
+    expect(CARRYOVER.path).toBe("/work/carryover");
+    expect(CARRYOVER.liveUrl).toBe("https://carryover-6m1z.vercel.app");
     expect(RESUME_PROJECTS[0].title).toContain("Meridian");
-    expect(JSON.stringify(RESUME_PROJECTS)).not.toMatch(/Carryover/i);
+    expect(RESUME_PROJECTS[1].title).toContain("Carryover");
   });
 
   it("keeps only Luxen and HALO in the technical lab", () => {
@@ -19,5 +21,10 @@ describe("canonical portfolio content", () => {
 
   it("uses the verified Meridian passing count", () => {
     expect(MERIDIAN.evidence.find((item) => item.label === "passing tests")?.value).toBe("46");
+  });
+
+  it("uses verified Carryover release evidence", () => {
+    expect(CARRYOVER.evidence.find((item) => item.label === "unit tests")?.value).toBe("25");
+    expect(CARRYOVER.evidence.find((item) => item.label === "browser checks")?.value).toBe("105");
   });
 });

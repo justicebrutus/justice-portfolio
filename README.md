@@ -1,8 +1,9 @@
 # Justice Brutus — Product-focused Front-End Engineer
 
-A recruiter-facing engineering dossier led by one released flagship:
+A recruiter-facing engineering dossier led by two released flagships:
 
 - **Meridian Capital** — a 27-route fictional institution and five-workspace portfolio operating system with 46 passing tests.
+- **Carryover** — a role-aware shift-continuity product with five workspaces, a real handoff workflow, versioned persistence, 20 unit tests, and 60 cross-browser checks.
 - **Technical Lab** — compact Luxen and HALO records demonstrating browser-audio, Canvas, interaction, and performance range.
 
 Luxen Mix Analyzer and HALO remain a compact Technical Lab demonstrating browser audio, Canvas, motion, and performance range.
@@ -11,6 +12,7 @@ Luxen Mix Analyzer and HALO remain a compact Technical Lab demonstrating browser
 
 - `/` — skimmable hiring summary, Meridian evidence, operating experience, and technical range.
 - `/work/meridian` — complete Meridian case study.
+- `/work/carryover` — Carryover workflow, architecture, responsive evidence, and verified release record.
 - `/resume` — semantic, print-ready résumé.
 - any unmatched route — deliberate 404 recovery.
 

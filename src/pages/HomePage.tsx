@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { LAB_PROJECTS, MERIDIAN, PROFILE } from "../data/portfolio";
+import { CARRYOVER, LAB_PROJECTS, MERIDIAN, PROFILE } from "../data/portfolio";
 import LiveProjectPreview from "../components/LiveProjectPreview";
 
 const capabilityGroups = [
@@ -12,6 +12,12 @@ const meridianBullets = [
   "Built a 27-route experience spanning an editorial institutional website and a five-workspace portfolio console.",
   "Designed one typed 24-company record to drive public claims, capital exceptions, reviews, filtering, and reporting.",
   "Implemented accessible interaction, responsive work modes, versioned local persistence, recovery, and automated tests.",
+] as const;
+
+const carryoverBullets = [
+  "Built the full observation-to-closure workflow with two-way handoff verification, assigned work, evidence, and immutable audit events.",
+  "Separated three role modes while keeping every unavailable action explicit about the permission required.",
+  "Released with V1 migration, corruption recovery, direct record routes, print and CSV outputs, and a 60-case cross-browser matrix.",
 ] as const;
 
 export default function HomePage() {
@@ -64,20 +70,28 @@ export default function HomePage() {
       </div>
     </section>
 
+    <section className="dossier-section flagship-record flagship-record-secondary" aria-labelledby="carryover-title">
+      <header className="record-section-heading"><span>02</span><div><p className="eyebrow">Selected product work</p><h2 id="carryover-title">Carryover</h2></div></header>
+      <div className="flagship-grid flagship-grid-reverse">
+        <figure className="flagship-image"><LiveProjectPreview href={CARRYOVER.liveUrl} label="Carryover shift continuity product" pathLabel="Carryover / Current operating brief" posterSrc="/projects/carryover-overview.png" previewHeight={900} /><figcaption><strong>Shift continuity product</strong><span>The deployed interface, shown at working scale.</span></figcaption></figure>
+        <div className="flagship-copy"><p className="project-type">Independent product case study · 2026</p><p className="project-intro">{CARRYOVER.summary}</p><dl className="project-ledger"><div><dt>Role</dt><dd>Product definition, workflow architecture, interface design, frontend implementation, release verification</dd></div><div><dt>Stack</dt><dd>{CARRYOVER.technologies.join(" · ")}</dd></div></dl><ul className="project-outcomes">{carryoverBullets.map((bullet) => <li key={bullet}>{bullet}</li>)}</ul><div className="scope-line" aria-label="Verified Carryover scope">{CARRYOVER.evidence.map((item) => <div key={item.label}><strong>{item.value}</strong><span>{item.label}</span></div>)}</div><div className="record-actions"><Link className="button button-primary" to={CARRYOVER.path!}>Read case study</Link><a href={`${CARRYOVER.liveUrl}/?tour=handoff`} target="_blank" rel="noreferrer">Run handoff ↗</a><a href={CARRYOVER.repoUrl} target="_blank" rel="noreferrer">Source ↗</a></div></div>
+      </div>
+    </section>
+
     <div className="dossier-columns">
       <section className="dossier-section" aria-labelledby="capabilities-title">
-        <header className="record-section-heading"><span>02</span><div><p className="eyebrow">Capabilities</p><h2 id="capabilities-title">Frontend product delivery</h2></div></header>
+        <header className="record-section-heading"><span>03</span><div><p className="eyebrow">Capabilities</p><h2 id="capabilities-title">Frontend product delivery</h2></div></header>
         <div className="capability-records">{capabilityGroups.map(([title, detail]) => <div key={title}><h3>{title}</h3><p>{detail}</p></div>)}</div>
       </section>
 
       <section className="dossier-section" aria-labelledby="experience-title">
-        <header className="record-section-heading"><span>03</span><div><p className="eyebrow">Professional experience</p><h2 id="experience-title">Operating discipline</h2></div></header>
+        <header className="record-section-heading"><span>04</span><div><p className="eyebrow">Professional experience</p><h2 id="experience-title">Operating discipline</h2></div></header>
         <article className="job-record"><div><h3>Filament Winding Operator</h3><p>RS Poles · Tilbury, Ontario</p></div><time>June 2025–Present</time><ul><li>Work where process discipline, equipment condition, and clear handoffs directly affect production output.</li><li>Earned independent equipment-troubleshooting responsibility within 2.5 months.</li></ul></article>
       </section>
     </div>
 
     <section className="dossier-section lab-record" aria-labelledby="lab-title">
-      <header className="record-section-heading"><span>04</span><div><p className="eyebrow">Technical lab</p><h2 id="lab-title">Focused engineering range</h2></div></header>
+      <header className="record-section-heading"><span>05</span><div><p className="eyebrow">Technical lab</p><h2 id="lab-title">Focused engineering range</h2></div></header>
       <div className="lab-records">{LAB_PROJECTS.map((project) => <article key={project.id}><div><h3>{project.title}</h3><p>{project.summary}</p></div><span>{project.technologies.join(" · ")}</span><div><a href={project.liveUrl} target="_blank" rel="noreferrer">Live ↗</a>{project.repoUrl && <a href={project.repoUrl} target="_blank" rel="noreferrer">Source ↗</a>}</div></article>)}</div>
     </section>
 
