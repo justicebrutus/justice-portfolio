@@ -38,6 +38,7 @@ export default function ResumePage() {
         <div><strong>Frontend</strong><span>React, TypeScript, JavaScript, React Router, semantic HTML, modern CSS, responsive interface systems</span></div>
         <div><strong>Product UI</strong><span>Data-rich workflows, forms and validation, keyboard interaction, focus management, accessibility, reduced motion</span></div>
         <div><strong>Quality</strong><span>Vitest, Testing Library, browser QA, responsive testing, performance review, Vite, Git, GitHub, Vercel</span></div>
+        <div><strong>Design</strong><span>Figma, Webflow, Squarespace</span></div>
       </div>
     </section>
 
@@ -46,6 +47,10 @@ export default function ResumePage() {
       <article className="resume-job">
         <header><div><h3>Filament Winding Operator · RS Poles</h3><p>Tilbury, Ontario</p></div><span>June 2025–Present</span></header>
         <ul><li>Execute production work where process discipline, equipment condition, accurate handoffs, and traceable records directly affect output quality.</li><li>Earned independent equipment-troubleshooting responsibility within 2.5 months through reliable execution and self-directed technical learning.</li></ul>
+      </article>
+      <article className="resume-job">
+        <header><div><h3>Freelance Web Designer &amp; Developer · Independent</h3><p>Remote</p></div><span>2024</span></header>
+        <ul><li>Designed and shipped e-commerce sites for two small retail clients — a model-kit / collectibles store and a cosmetics &amp; body-care brand — in Figma, Webflow, and Squarespace, from visual design through launch.</li></ul>
       </article>
     </section>
 

@@ -87,6 +87,7 @@ export default function HomePage() {
       <section className="dossier-section" aria-labelledby="experience-title">
         <header className="record-section-heading"><span>04</span><div><p className="eyebrow">Professional experience</p><h2 id="experience-title">Operating discipline</h2></div></header>
         <article className="job-record"><div><h3>Filament Winding Operator</h3><p>RS Poles · Tilbury, Ontario</p></div><time>June 2025–Present</time><ul><li>Work where process discipline, equipment condition, and clear handoffs directly affect production output.</li><li>Earned independent equipment-troubleshooting responsibility within 2.5 months.</li></ul></article>
+        <article className="job-record"><div><h3>Freelance Web Designer &amp; Developer</h3><p>Independent · Remote</p></div><time>2024</time><ul><li>Designed and shipped e-commerce sites for two retail clients in Figma, Webflow, and Squarespace, from visual design through launch.</li></ul></article>
       </section>
     </div>
 
