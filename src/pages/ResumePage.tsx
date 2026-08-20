@@ -44,14 +44,16 @@ export default function ResumePage() {
 
     <section className="resume-section" aria-labelledby="experience-title">
       <h2 id="experience-title">Professional experience</h2>
-      <article className="resume-job">
-        <header><div><h3>Filament Winding Operator · RS Poles</h3><p>Tilbury, Ontario</p></div><span>June 2025–Present</span></header>
-        <ul><li>Execute production work where process discipline, equipment condition, accurate handoffs, and traceable records directly affect output quality.</li><li>Earned independent equipment-troubleshooting responsibility within 2.5 months through reliable execution and self-directed technical learning.</li></ul>
-      </article>
-      <article className="resume-job">
-        <header><div><h3>Freelance Web Designer &amp; Developer</h3><p>Independent · Remote</p></div><span>2024</span></header>
-        <ul><li>Designed and shipped e-commerce sites for two small retail clients — a model-kit / collectibles store and a cosmetics &amp; body-care brand — in Figma, Webflow, and Squarespace, from visual design through launch.</li></ul>
-      </article>
+      <div className="resume-jobs">
+        <article className="resume-job">
+          <header><div><h3>Filament Winding Operator · RS Poles</h3><p>Tilbury, Ontario</p></div><span>June 2025–Present</span></header>
+          <ul><li>Execute production work where process discipline, equipment condition, accurate handoffs, and traceable records directly affect output quality.</li><li>Earned independent equipment-troubleshooting responsibility within 2.5 months through reliable execution and self-directed technical learning.</li></ul>
+        </article>
+        <article className="resume-job">
+          <header><div><h3>Freelance Web Designer &amp; Developer</h3><p>Independent · Remote</p></div><span>2024</span></header>
+          <ul><li>Designed and shipped e-commerce sites for two small retail clients — a model-kit / collectibles store and a cosmetics &amp; body-care brand — in Figma, Webflow, and Squarespace, from visual design through launch.</li></ul>
+        </article>
+      </div>
     </section>
 
     <section className="resume-section resume-education" aria-labelledby="education-title">

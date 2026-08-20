@@ -141,6 +141,8 @@ figure { margin: 0; }
 .resume-records li, .resume-job li { color: var(--slate); font-size: .8rem; line-height: 1.45; margin-bottom: .32rem; }
 .resume-records article:first-child h3 { font-size: 1.08rem; }
 .resume-records article:first-child { padding-left: .8rem; border-left: 3px solid var(--blue); }
+.resume-jobs { display: grid; gap: .9rem; }
+.resume-jobs .resume-job + .resume-job { border-top: 1px solid var(--line); padding-top: .9rem; }
 .skills-ledger { display: grid; gap: .55rem; }
 .skills-ledger div { display: grid; grid-template-columns: 150px 1fr; gap: 1rem; font-size: .8rem; }
 .skills-ledger span { color: var(--slate); line-height: 1.5; }
