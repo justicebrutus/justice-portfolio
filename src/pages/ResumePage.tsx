@@ -49,7 +49,7 @@ export default function ResumePage() {
         <ul><li>Execute production work where process discipline, equipment condition, accurate handoffs, and traceable records directly affect output quality.</li><li>Earned independent equipment-troubleshooting responsibility within 2.5 months through reliable execution and self-directed technical learning.</li></ul>
       </article>
       <article className="resume-job">
-        <header><div><h3>Freelance Web Designer &amp; Developer · Independent</h3><p>Remote</p></div><span>2024</span></header>
+        <header><div><h3>Freelance Web Designer &amp; Developer</h3><p>Independent · Remote</p></div><span>2024</span></header>
         <ul><li>Designed and shipped e-commerce sites for two small retail clients — a model-kit / collectibles store and a cosmetics &amp; body-care brand — in Figma, Webflow, and Squarespace, from visual design through launch.</li></ul>
       </article>
     </section>
