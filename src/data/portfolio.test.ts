@@ -3,7 +3,7 @@ import { CARRYOVER, LAB_PROJECTS, MERIDIAN, PROFILE, RESUME_PROJECTS } from "./p
 
 describe("canonical portfolio content", () => {
   it("uses professional positioning without unsupported seniority", () => {
-    expect(PROFILE.role).toBe("Product-focused Front-End Engineer");
+    expect(PROFILE.role).toBe("Frontend Developer & UI Engineer");
     expect(JSON.stringify(PROFILE)).not.toMatch(/senior|self-taught|phone/i);
   });
 

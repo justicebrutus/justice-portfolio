@@ -6,7 +6,7 @@ export interface ResumeEntry { title: string; subtitle: string; period?: string;
 
 export const PROFILE: Profile = {
   name: "Justice Brutus",
-  role: "Product-focused Front-End Engineer",
+  role: "Frontend Developer & UI Engineer",
   statement: "I build interfaces that make complex products clear, credible, and usable.",
   summary: "React and TypeScript engineer focused on data-rich interfaces, accessible interaction, responsive systems, and verified releases.",
   email: "justicebrutus4@gmail.com",
@@ -83,4 +83,5 @@ export const RESUME_PROJECTS: ResumeEntry[] = [
   { title: "Meridian Capital — Independent product case study", subtitle: "React · TypeScript · React Router · Vitest", period: "2026", bullets: ["Architected and implemented a 27-route interface spanning an editorial investment-firm website and five connected portfolio-management workspaces.", "Created a shared typed data model powering 24 company records, capital tracking, review decisions, search and filtering, CSV exports, and print-ready reports.", "Built versioned local persistence with corruption recovery, keyboard-accessible workflows, reduced-motion support, and task-specific desktop, tablet, and mobile layouts.", "Verified core data and decision workflows with 46 automated tests, production builds, and browser QA across five target viewport sizes."] },
   { title: "Carryover — Independent plant-operations product", subtitle: "React · TypeScript · React Router · Vitest · Playwright", period: "2026", bullets: ["Designed and implemented a role-aware shift-continuity workflow from observation through two-way handoff, action ownership, resolution evidence, and an immutable operating record.", "Built versioned local persistence with V1 migration, corruption recovery, deterministic seed state, direct record routes, CSV export, and print-ready shift briefs.", "Hand-built product-depth features with zero added dependencies: a ⌘K command palette, undo/redo time-travel over the record, cross-tab live sync, and an installable offline PWA.", "Verified the release with 25 unit tests and 105 browser cases across Chromium, Firefox, and WebKit at five responsive widths; Lighthouse scored 100 for performance, accessibility, and best practices."] },
   { title: "Luxen Mix Analyzer — Browser audio workbench", subtitle: "JavaScript · Web Audio API · Canvas · DSP", bullets: ["Implemented a zero-dependency radix-2 FFT, loudness metering, phase-vocoder retuning, and spectral separation in a keyboard-operable browser instrument."] },
+  { title: "HALO — Creative-technology studio site", subtitle: "React · Canvas 2D · Framer Motion", bullets: ["Diagnosed a browser-freezing canvas animation caused by repeated per-particle blur inside the render loop; replaced it with a pre-rendered offscreen glow sprite reused via drawImage(), then capped backing resolution and paused animation when the tab is hidden — a full performance pass, not a single fix."] },
 ];
