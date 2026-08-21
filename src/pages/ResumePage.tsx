@@ -57,8 +57,10 @@ export default function ResumePage() {
     </section>
 
     <section className="resume-section resume-education" aria-labelledby="education-title">
-      <h2 id="education-title">Education</h2>
-      <p><strong>High School Diploma</strong> · Chatham-Kent Secondary School · 2019</p>
+      <h2 id="education-title">Education &amp; Professional Development</h2>
+      <p><strong>CS50x: Introduction to Computer Science</strong> · Harvard University (edX) · Completed 2026<br />
+      <span style={{ color: "var(--slate)" }}>Algorithms, data structures, C, Python, SQL, JavaScript.</span></p>
+      <p>freeCodeCamp — JavaScript Algorithms &amp; Data Structures · High School Diploma, Chatham-Kent Secondary School (2019)</p>
     </section>
   </article>;
 }
