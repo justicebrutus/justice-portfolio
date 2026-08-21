@@ -132,6 +132,12 @@ figure { margin: 0; }
 .resume-header address { display: grid; align-content: end; justify-items: end; gap: .35rem; font-style: normal; font-size: .8rem; }
 .resume-summary, .resume-section { display: grid; grid-template-columns: 165px 1fr; gap: 2rem; padding-block: 1.15rem; border-bottom: 1px solid var(--line); }
 .resume-summary h2, .resume-section > h2 { font: 700 .75rem "IBM Plex Mono"; text-transform: uppercase; letter-spacing: .12em; }
+/* Label sits in col 1; EVERY other direct child stays in the content column.
+   Without this, a second direct child auto-flows into the narrow 165px label
+   column and renders squashed. Keeps the section safe for any child count. */
+.resume-summary > h2, .resume-section > h2 { grid-column: 1; }
+.resume-summary > :not(h2), .resume-section > :not(h2) { grid-column: 2; }
+.resume-education > :not(h2) + :not(h2) { margin-top: .5rem; }
 .resume-summary p { margin: 0; color: var(--ink); font-size: .88rem; line-height: 1.55; }
 .resume-records article + article { border-top: 1px solid var(--line); margin-top: .9rem; padding-top: .9rem; }
 .resume-records header, .resume-job header { display: flex; justify-content: space-between; gap: 1rem; }
@@ -327,6 +333,9 @@ figure { margin: 0; }
   .resume-header { display: grid; }
   .resume-header address { justify-items: start; }
   .resume-summary, .resume-section { grid-template-columns: 1fr; gap: .7rem; }
+  /* single column here — release the forced content-column placement */
+  .resume-summary > h2, .resume-section > h2,
+  .resume-summary > :not(h2), .resume-section > :not(h2) { grid-column: 1; }
   .resume-actions { flex-wrap: wrap; }
   .site-footer { display: grid; min-height: auto; }
   .footer-actions { justify-items: start; }
