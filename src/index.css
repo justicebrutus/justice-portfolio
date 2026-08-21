@@ -137,7 +137,6 @@ figure { margin: 0; }
    column and renders squashed. Keeps the section safe for any child count. */
 .resume-summary > h2, .resume-section > h2 { grid-column: 1; }
 .resume-summary > :not(h2), .resume-section > :not(h2) { grid-column: 2; }
-.resume-education > :not(h2) + :not(h2) { margin-top: .5rem; }
 .resume-summary p { margin: 0; color: var(--ink); font-size: .88rem; line-height: 1.55; }
 .resume-records article + article { border-top: 1px solid var(--line); margin-top: .9rem; padding-top: .9rem; }
 .resume-records header, .resume-job header { display: flex; justify-content: space-between; gap: 1rem; }
