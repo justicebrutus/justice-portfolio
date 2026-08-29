@@ -6,7 +6,7 @@ export interface ResumeEntry { title: string; subtitle: string; period?: string;
 
 export const PROFILE: Profile = {
   name: "Justice Brutus",
-  role: "Frontend Developer & UI Engineer",
+  role: "Frontend Developer & Design Engineer",
   statement: "I build interfaces that make complex products clear, credible, and usable.",
   summary: "React and TypeScript engineer focused on data-rich interfaces, accessible interaction, responsive systems, and verified releases.",
   email: "justicebrutus4@gmail.com",

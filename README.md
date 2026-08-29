@@ -1,4 +1,4 @@
-# Justice Brutus — Frontend Developer & UI Engineer
+# Justice Brutus — Frontend Developer & Design Engineer
 
 **Live:** https://justice-portfolio-nine.vercel.app
 
